@@ -1,0 +1,2132 @@
+{
+  "meta": {
+    "version": "contract-token-catalog-1.0.0",
+    "schemaVersion": 1,
+    "generated_at": "2026-06-25T04:07:57.464Z",
+    "epoch": 191,
+    "status": "ok",
+    "source": "contract-token-catalog cron (cron-scripts/contract-token-catalog)"
+  },
+  "pools": {
+    "active": [
+      {
+        "name": "LUNA-USDT",
+        "dex": "Astroport",
+        "dex_subtype": "concentrated",
+        "pair_type": "concentrated",
+        "bucket": "stable",
+        "status": "active",
+        "dex_contract": "terra1aategw0787y4fyunmwdvdqraxfc8jtxykyed2skx3p5fd3lkgkmsqry7pz",
+        "lp_address": "terra14h48hukanmfv6wrrs50m4w2f9hf09lakwl5d5pkpt4rpl3gtg7ks4ye6d4",
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/5/stable/amplp",
+        "gauge_pool_id": "cw20:terra14h48hukanmfv6wrrs50m4w2f9hf09lakwl5d5pkpt4rpl3gtg7ks4ye6d4",
+        "token_a": {
+          "symbol": "USDT",
+          "address": "ibc/9B19062D46CAB50361CE9B0A3E6D0A7A53AC9E7CB361F32A73CC733144A9A9E5",
+          "decimals": 6,
+          "type": "ibc"
+        },
+        "token_b": {
+          "symbol": "LUNA",
+          "address": "uluna",
+          "decimals": 6,
+          "type": "native"
+        },
+        "ratio": 0.833137686133248,
+        "ratio_type": "non-amplified"
+      },
+      {
+        "name": "LUNA-USDC",
+        "dex": "Astroport",
+        "dex_subtype": "concentrated",
+        "pair_type": "concentrated",
+        "bucket": "stable",
+        "status": "active",
+        "dex_contract": "terra1v3lqxl0eyte9x3nhdgcj8hwvjq76aupnnzz0yll8mxs5cckc29pqvg2scu",
+        "lp_address": "terra1s275y73lfupag0g03nglxaedfnsw5z4m5zc9wk66guy503zuw5ss889tlx",
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/5/stable/amplp",
+        "gauge_pool_id": "cw20:terra1s275y73lfupag0g03nglxaedfnsw5z4m5zc9wk66guy503zuw5ss889tlx",
+        "token_a": {
+          "symbol": "LUNA",
+          "address": "uluna",
+          "decimals": 6,
+          "type": "native"
+        },
+        "token_b": {
+          "symbol": "USDC",
+          "address": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB",
+          "decimals": 6,
+          "type": "ibc"
+        },
+        "ratio": 0.8343247471172859,
+        "ratio_type": "non-amplified"
+      },
+      {
+        "name": "LUNA-EURe",
+        "dex": "Astroport",
+        "dex_subtype": "concentrated",
+        "pair_type": "concentrated",
+        "bucket": "stable",
+        "status": "active",
+        "dex_contract": "terra1vhxl8ggscmhae3muvwvs2vs8ppprzqf07xngcdp798fwnrcksjxszqfa8n",
+        "lp_address": "terra1xkt5etsaptddec6achnjlqnx884fwxwuk795fs885v6eyygu6eus7uauhc",
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/5/stable/amplp",
+        "gauge_pool_id": "cw20:terra1xkt5etsaptddec6achnjlqnx884fwxwuk795fs885v6eyygu6eus7uauhc",
+        "token_a": {
+          "symbol": "LUNA",
+          "address": "uluna",
+          "decimals": 6,
+          "type": "native"
+        },
+        "token_b": {
+          "symbol": "EURE",
+          "address": "ibc/8D52B251B447B7160421ACFBD50F6B0ABE5F98D2C404B03701130F12044439A1",
+          "decimals": 6,
+          "type": "ibc"
+        },
+        "ratio": 0.8685503463132002,
+        "ratio_type": "non-amplified"
+      },
+      {
+        "name": "LUNA-USDC",
+        "dex": "Skeleton Swap",
+        "dex_subtype": null,
+        "pair_type": "pair",
+        "bucket": "stable",
+        "status": "active",
+        "dex_contract": "terra16a45v4k74w3yy30utfxdsekdlnks27sv48sn2suaf4wt7u6meq8scz75mx",
+        "lp_address": null,
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/5/stable/amplp",
+        "gauge_pool_id": "native:factory/terra16a45v4k74w3yy30utfxdsekdlnks27sv48sn2suaf4wt7u6meq8scz75mx/uLP",
+        "token_a": {
+          "symbol": "LUNA",
+          "address": "uluna",
+          "decimals": 6,
+          "type": "native"
+        },
+        "token_b": {
+          "symbol": "USDC",
+          "address": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB",
+          "decimals": 6,
+          "type": "ibc"
+        },
+        "ratio": 0.8331185542274734,
+        "ratio_type": "non-amplified"
+      },
+      {
+        "name": "USDC-SOLID",
+        "dex": "Astroport",
+        "dex_subtype": "xyk",
+        "pair_type": "xyk",
+        "bucket": "project",
+        "status": "active",
+        "dex_contract": "terra1fwjxdjpl98shj20l4swlen9hyu4lhvekrvqkqn393lzzghmsn2wqjdnvpu",
+        "lp_address": "terra12usr3jlgvuzq70kpt6u03stxrgzwpjxnej6herpuw9t7echj8z3q44dyyk",
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/23/project/amplp",
+        "gauge_pool_id": "cw20:terra12usr3jlgvuzq70kpt6u03stxrgzwpjxnej6herpuw9t7echj8z3q44dyyk",
+        "token_a": {
+          "symbol": "USDC",
+          "address": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB",
+          "decimals": 6,
+          "type": "ibc"
+        },
+        "token_b": {
+          "symbol": "SOLID",
+          "address": "terra10aa3zdkrc7jwuf8ekl3zq7e7m42vmzqehcmu74e4egc7xkm5kr2s0muyst",
+          "decimals": 6,
+          "type": "cw20"
+        },
+        "ratio": 0.8332548383015264,
+        "ratio_type": "non-amplified"
+      },
+      {
+        "name": "LUNA-SOLID",
+        "dex": "Astroport",
+        "dex_subtype": "xyk",
+        "pair_type": "xyk",
+        "bucket": "project",
+        "status": "active",
+        "dex_contract": "terra1e45ctmel6t5m9vdgxv3zxh3ecflkfcd6mr42sluzrqnhveqmy3fss338s7",
+        "lp_address": "terra14arerdfc88cdv6m6frc03a0963z877756kqac4h4xvd9vftn0hqqhquca8",
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/23/project/amplp",
+        "gauge_pool_id": "cw20:terra14arerdfc88cdv6m6frc03a0963z877756kqac4h4xvd9vftn0hqqhquca8",
+        "token_a": {
+          "symbol": "SOLID",
+          "address": "terra10aa3zdkrc7jwuf8ekl3zq7e7m42vmzqehcmu74e4egc7xkm5kr2s0muyst",
+          "decimals": 6,
+          "type": "cw20"
+        },
+        "token_b": {
+          "symbol": "LUNA",
+          "address": "uluna",
+          "decimals": 6,
+          "type": "native"
+        },
+        "ratio": 0.8359205446991156,
+        "ratio_type": "non-amplified"
+      },
+      {
+        "name": "LUNA-ASTRO",
+        "dex": "Astroport",
+        "dex_subtype": "concentrated",
+        "pair_type": "concentrated",
+        "bucket": "project",
+        "status": "active",
+        "dex_contract": "terra1nwepezm3mghyxm7fjfhfr2d4jwqzndtncf9tclgunqfcwhe52mpq4sxaqr",
+        "lp_address": "terra14lul8rjcad0jeuu680n4q7dwgxjkr6mqzx8umyewj8c6xn93squqllleht",
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/23/project/amplp",
+        "gauge_pool_id": "cw20:terra14lul8rjcad0jeuu680n4q7dwgxjkr6mqzx8umyewj8c6xn93squqllleht",
+        "token_a": {
+          "symbol": "ASTRO",
+          "address": "terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26",
+          "decimals": 6,
+          "type": "cw20"
+        },
+        "token_b": {
+          "symbol": "LUNA",
+          "address": "uluna",
+          "decimals": 6,
+          "type": "native"
+        },
+        "ratio": 0.8333399689868922,
+        "ratio_type": "non-amplified"
+      },
+      {
+        "name": "LUNA-stLUNA",
+        "dex": "Astroport",
+        "dex_subtype": "stable",
+        "pair_type": "stable",
+        "bucket": "project",
+        "status": "active",
+        "dex_contract": "terra1re0yj0j6e9v2szg7kp02ut6u8jjea586t6pnpq6628wl36fphtpqwt6l7p",
+        "lp_address": "terra14n22zd24nath0tf8fwn468nz7753rjuks67ppddrcqwq37x2xsxsddqxqc",
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/23/project/amplp",
+        "gauge_pool_id": "cw20:terra14n22zd24nath0tf8fwn468nz7753rjuks67ppddrcqwq37x2xsxsddqxqc",
+        "token_a": {
+          "symbol": "stLUNA",
+          "address": null,
+          "decimals": null,
+          "type": null,
+          "note": "not in token registry"
+        },
+        "token_b": {
+          "symbol": "LUNA",
+          "address": "uluna",
+          "decimals": 6,
+          "type": "native"
+        },
+        "ratio": 0.8504791515283739,
+        "ratio_type": "non-amplified"
+      },
+      {
+        "name": "LUNA-CAPA",
+        "dex": "Astroport",
+        "dex_subtype": "concentrated",
+        "pair_type": "concentrated",
+        "bucket": "project",
+        "status": "active",
+        "dex_contract": "terra183wqgrwa2k0uvlz99j57c496gfuwgtaccrhv4stcjzv3ydacl9zq0hmf25",
+        "lp_address": "terra1cg9t08mqa88us074mpwpuu8lp5w4jwtye3vaazll45w27at52cpsq7c564",
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/23/project/amplp",
+        "gauge_pool_id": "cw20:terra1cg9t08mqa88us074mpwpuu8lp5w4jwtye3vaazll45w27at52cpsq7c564",
+        "token_a": {
+          "symbol": "CAPA",
+          "address": "terra1t4p3u8khpd7f8qzurwyafxt648dya6mp6vur3vaapswt6m24gkuqrfdhar",
+          "decimals": 6,
+          "type": "cw20"
+        },
+        "token_b": {
+          "symbol": "LUNA",
+          "address": "uluna",
+          "decimals": 6,
+          "type": "native"
+        },
+        "ratio": 0.8537174623663698,
+        "ratio_type": "non-amplified"
+      },
+      {
+        "name": "LUNA-FUEL",
+        "dex": "Astroport",
+        "dex_subtype": "concentrated",
+        "pair_type": "concentrated",
+        "bucket": "project",
+        "status": "active",
+        "dex_contract": "terra10yfnsqn20rzlnlzkeva5255q27zp6ws9te9uuql9e0lacfcze7zsffjct5",
+        "lp_address": "terra1e6k3u9uwysataqnysfdn7y5v254pawm0gcuflumugtd7l4w74slq0qww44",
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/23/project/amplp",
+        "gauge_pool_id": "cw20:terra1e6k3u9uwysataqnysfdn7y5v254pawm0gcuflumugtd7l4w74slq0qww44",
+        "token_a": {
+          "symbol": "FUEL",
+          "address": null,
+          "decimals": null,
+          "type": null,
+          "note": "not in token registry"
+        },
+        "token_b": {
+          "symbol": "LUNA",
+          "address": "uluna",
+          "decimals": 6,
+          "type": "native"
+        },
+        "ratio": 0.9305695004800221,
+        "ratio_type": "non-amplified"
+      },
+      {
+        "name": "LUNA-ampLUNA",
+        "dex": "Astroport",
+        "dex_subtype": "concentrated",
+        "pair_type": "concentrated",
+        "bucket": "project",
+        "status": "active",
+        "dex_contract": "terra1cupwgntu082ypw2ztgtxfzcenexcu6ggp5zzunn3yzfwgrvdcclqgjrjqg",
+        "lp_address": "terra1my4tml2ae4zewq0u5fpq2qzq4rdpfh5pq7y3eekxxhwxdwdmce4shw9mt4",
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/23/project/amplp",
+        "gauge_pool_id": "cw20:terra1my4tml2ae4zewq0u5fpq2qzq4rdpfh5pq7y3eekxxhwxdwdmce4shw9mt4",
+        "token_a": {
+          "symbol": "LUNA",
+          "address": "uluna",
+          "decimals": 6,
+          "type": "native"
+        },
+        "token_b": {
+          "symbol": "ampLUNA",
+          "address": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+          "decimals": 6,
+          "type": "cw20"
+        },
+        "ratio": 0.8333575452136338,
+        "ratio_type": "non-amplified"
+      },
+      {
+        "name": "bLUNA-LUNA",
+        "dex": "Skeleton Swap",
+        "dex_subtype": null,
+        "pair_type": "pair",
+        "bucket": "project",
+        "status": "active",
+        "dex_contract": "terra1j5znhs9jeyty9u9jcagl3vefkvzwqp6u9tq9a3e5qrz4gmj2udyqp0z0xc",
+        "lp_address": "terra1q475uvk9te5nxq2lzu0h96t0devmx4v8ctxqtm253ut05wrpugsq0m4e3k",
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/23/project/amplp",
+        "gauge_pool_id": "cw20:terra1q475uvk9te5nxq2lzu0h96t0devmx4v8ctxqtm253ut05wrpugsq0m4e3k",
+        "token_a": {
+          "symbol": "bLUNA",
+          "address": "terra17aj4ty4sz4yhgm08na8drc0v03v2jwr3waxcqrwhajj729zhl7zqnpc0ml",
+          "decimals": 6,
+          "type": "cw20"
+        },
+        "token_b": {
+          "symbol": "LUNA",
+          "address": "uluna",
+          "decimals": 6,
+          "type": "native"
+        },
+        "ratio": 0.8333574437091786,
+        "ratio_type": "non-amplified"
+      },
+      {
+        "name": "LUNA-ROAR",
+        "dex": "Astroport",
+        "dex_subtype": "concentrated",
+        "pair_type": "concentrated",
+        "bucket": "project",
+        "status": "active",
+        "dex_contract": "terra189v2ewgfx5wdhje6geefdtxefeemujplk8qw2wx3x5hdswn95l8qf4n2r0",
+        "lp_address": "terra1vczn40ch624g2kserhzqu2n69j3h7h7c5nfeznw96pnxjuly5h5s25u9dm",
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/23/project/amplp",
+        "gauge_pool_id": "cw20:terra1vczn40ch624g2kserhzqu2n69j3h7h7c5nfeznw96pnxjuly5h5s25u9dm",
+        "token_a": {
+          "symbol": "ROAR",
+          "address": "terra1lxx40s29qvkrcj8fsa3yzyehy7w50umdvvnls2r830rys6lu2zns63eelv",
+          "decimals": 6,
+          "type": "cw20"
+        },
+        "token_b": {
+          "symbol": "LUNA",
+          "address": "uluna",
+          "decimals": 6,
+          "type": "native"
+        },
+        "ratio": 0.8333320303424714,
+        "ratio_type": "non-amplified"
+      },
+      {
+        "name": "USDC-EURe",
+        "dex": "Astroport",
+        "dex_subtype": "concentrated",
+        "pair_type": "concentrated",
+        "bucket": "bluechip",
+        "status": "active",
+        "dex_contract": "terra1ys7edvw89krf47n4zsz4c4m9das7ppltjtfv2epw85thqpvl6hhqn55m6y",
+        "lp_address": "terra17thxg96vtxv39kcltc0dvrltqgkumu8fv93rpz3xz98675cgxdjq3y4ddn",
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/51/bluechip/amplp",
+        "gauge_pool_id": "cw20:terra17thxg96vtxv39kcltc0dvrltqgkumu8fv93rpz3xz98675cgxdjq3y4ddn",
+        "token_a": {
+          "symbol": "USDC",
+          "address": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB",
+          "decimals": 6,
+          "type": "ibc"
+        },
+        "token_b": {
+          "symbol": "EURE",
+          "address": "ibc/8D52B251B447B7160421ACFBD50F6B0ABE5F98D2C404B03701130F12044439A1",
+          "decimals": 6,
+          "type": "ibc"
+        },
+        "ratio": 0.8686091681428365,
+        "ratio_type": "non-amplified"
+      },
+      {
+        "name": "LUNA-ATOM",
+        "dex": "Astroport",
+        "dex_subtype": "xyk",
+        "pair_type": "xyk",
+        "bucket": "bluechip",
+        "status": "active",
+        "dex_contract": "terra1j3d29y506cvtavdpakdzl6e0g2xcskvmmulsetcd0jfwrpr8eu9qfe0dmf",
+        "lp_address": "terra19xrvvkq5607xudcxvw444yycjz6e3vk3l8p633z68k0vv5q09wnsa9q2qt",
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/51/bluechip/amplp",
+        "gauge_pool_id": "cw20:terra19xrvvkq5607xudcxvw444yycjz6e3vk3l8p633z68k0vv5q09wnsa9q2qt",
+        "token_a": {
+          "symbol": "ATOM",
+          "address": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+          "decimals": 6,
+          "type": "ibc"
+        },
+        "token_b": {
+          "symbol": "LUNA",
+          "address": "uluna",
+          "decimals": 6,
+          "type": "native"
+        },
+        "ratio": 0.8343473675422856,
+        "ratio_type": "non-amplified"
+      },
+      {
+        "name": "LUNA-WBTC.axl",
+        "dex": "Astroport",
+        "dex_subtype": "concentrated",
+        "pair_type": "concentrated",
+        "bucket": "bluechip",
+        "status": "active",
+        "dex_contract": "terra1afkvgc0mxfqakqlaqpxdgy58n79x4r239q3tucxmrsqvqk7ce3ksnctxfu",
+        "lp_address": "terra1a5apghncafx0nem740fsrmd6demaywvp332a4uat63u2jtwn8mgsz7khkw",
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/51/bluechip/amplp",
+        "gauge_pool_id": "cw20:terra1a5apghncafx0nem740fsrmd6demaywvp332a4uat63u2jtwn8mgsz7khkw",
+        "token_a": {
+          "symbol": "LUNA",
+          "address": "uluna",
+          "decimals": 6,
+          "type": "native"
+        },
+        "token_b": {
+          "symbol": "WBTC",
+          "address": "ibc/88386AC48152D48B34B082648DF836F975506F0B57DBBFC10A54213B1BF484CB",
+          "decimals": 8,
+          "type": "ibc"
+        },
+        "ratio": 0.8336497755724384,
+        "ratio_type": "non-amplified"
+      },
+      {
+        "name": "ATOM-LUNA",
+        "dex": "Skeleton Swap",
+        "dex_subtype": null,
+        "pair_type": "pair",
+        "bucket": "bluechip",
+        "status": "active",
+        "dex_contract": "terra1frfcj4xhvx0emkup4vel5jun9zun0797j5yhn7ant3r4jzy9mkxqzcwev6",
+        "lp_address": "terra1adp223mw8937arxcfl36acjjyn2dcf7wzp8h09jek5k0gw3vch8sqlq6su",
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/51/bluechip/amplp",
+        "gauge_pool_id": "cw20:terra1adp223mw8937arxcfl36acjjyn2dcf7wzp8h09jek5k0gw3vch8sqlq6su",
+        "token_a": {
+          "symbol": "ATOM",
+          "address": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+          "decimals": 6,
+          "type": "ibc"
+        },
+        "token_b": {
+          "symbol": "LUNA",
+          "address": "uluna",
+          "decimals": 6,
+          "type": "native"
+        },
+        "ratio": 0.8335654549248755,
+        "ratio_type": "non-amplified"
+      },
+      {
+        "name": "LUNA-INJ",
+        "dex": "Astroport",
+        "dex_subtype": "xyk",
+        "pair_type": "xyk",
+        "bucket": "bluechip",
+        "status": "active",
+        "dex_contract": "terra10m23jmgtx0lvc6v5gffdmcutlmrgy9pnf8wun4mxft2xd3dnqdvsv392j5",
+        "lp_address": "terra1euf8klqukk4wlly90nve0n6drqvq9pst73wc34pruuvx09nptxyse68hgl",
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/51/bluechip/amplp",
+        "gauge_pool_id": "cw20:terra1euf8klqukk4wlly90nve0n6drqvq9pst73wc34pruuvx09nptxyse68hgl",
+        "token_a": {
+          "symbol": "LUNA",
+          "address": "uluna",
+          "decimals": 6,
+          "type": "native"
+        },
+        "token_b": {
+          "symbol": "INJ",
+          "address": null,
+          "decimals": null,
+          "type": null,
+          "note": "not in token registry"
+        },
+        "ratio": 0.8504754531276034,
+        "ratio_type": "non-amplified"
+      },
+      {
+        "name": "USDC-USDT",
+        "dex": "Astroport",
+        "dex_subtype": "stable",
+        "pair_type": "stable",
+        "bucket": "bluechip",
+        "status": "active",
+        "dex_contract": "terra1dnssvse0fqw4d4gqc8kvchfud5r6e8cr7w9cdpervhl2pgr2eecquujpg6",
+        "lp_address": "terra1huw82c9grj9xz9umkc8hqcjqgndadlkrp8rn9u6eh5jh5j2s2t7qs33vry",
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/51/bluechip/amplp",
+        "gauge_pool_id": "cw20:terra1huw82c9grj9xz9umkc8hqcjqgndadlkrp8rn9u6eh5jh5j2s2t7qs33vry",
+        "token_a": {
+          "symbol": "USDC",
+          "address": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB",
+          "decimals": 6,
+          "type": "ibc"
+        },
+        "token_b": {
+          "symbol": "USDT",
+          "address": "ibc/9B19062D46CAB50361CE9B0A3E6D0A7A53AC9E7CB361F32A73CC733144A9A9E5",
+          "decimals": 6,
+          "type": "ibc"
+        },
+        "ratio": 0.8871261707938076,
+        "ratio_type": "non-amplified"
+      },
+      {
+        "name": "LUNA-PAXG",
+        "dex": "Astroport",
+        "dex_subtype": "concentrated",
+        "pair_type": "concentrated",
+        "bucket": "bluechip",
+        "status": "active",
+        "dex_contract": "terra1xgdyzzhs2v2ne3us2kyj5ry47fwc7uk44k035dyyygq42xechwwqlddmcr",
+        "lp_address": "terra1sxmrwp48wt3h4whatla7xwl9g6t5y95u589az2cdu0myuzjpkkrs4ztprc",
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/51/bluechip/amplp",
+        "gauge_pool_id": "cw20:terra1sxmrwp48wt3h4whatla7xwl9g6t5y95u589az2cdu0myuzjpkkrs4ztprc",
+        "token_a": {
+          "symbol": "LUNA",
+          "address": "uluna",
+          "decimals": 6,
+          "type": "native"
+        },
+        "token_b": {
+          "symbol": "PAXG",
+          "address": "ibc/0EF5630576C66968EF0787868CF09FD866FAD131BC148D24A148358A85F0EB62",
+          "decimals": 6,
+          "type": "ibc"
+        },
+        "ratio": 0.9396899398669387,
+        "ratio_type": "non-amplified"
+      },
+      {
+        "name": "LUNA-WBTC",
+        "dex": "Astroport",
+        "dex_subtype": "concentrated",
+        "pair_type": "concentrated",
+        "bucket": "bluechip",
+        "status": "active",
+        "dex_contract": "terra1mea829xtsnxwv4l9lhzs0tzpnyamjpz5y45a9tpp06jgdhjd48yqc4ales",
+        "lp_address": "terra1wdzdltygkgqyuvggnqnxsny9vhfyex92kzaz6zkued2wvp7nvxpsv739js",
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/51/bluechip/amplp",
+        "gauge_pool_id": "cw20:terra1wdzdltygkgqyuvggnqnxsny9vhfyex92kzaz6zkued2wvp7nvxpsv739js",
+        "token_a": {
+          "symbol": "LUNA",
+          "address": "uluna",
+          "decimals": 6,
+          "type": "native"
+        },
+        "token_b": {
+          "symbol": "WBTC",
+          "address": "ibc/88386AC48152D48B34B082648DF836F975506F0B57DBBFC10A54213B1BF484CB",
+          "decimals": 8,
+          "type": "ibc"
+        },
+        "ratio": 0.9147692093517321,
+        "ratio_type": "non-amplified"
+      },
+      {
+        "name": "LUNA-wstETH",
+        "dex": "Skeleton Swap",
+        "dex_subtype": null,
+        "pair_type": "pair",
+        "bucket": "bluechip",
+        "status": "active",
+        "dex_contract": "terra12hs75vlyd38zjvhegsqzr8uvz2r764fdy8mhqw0qg0s2mv858yvstwmsf8",
+        "lp_address": null,
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/51/bluechip/amplp",
+        "gauge_pool_id": "native:factory/terra12hs75vlyd38zjvhegsqzr8uvz2r764fdy8mhqw0qg0s2mv858yvstwmsf8/uLP",
+        "token_a": {
+          "symbol": "LUNA",
+          "address": "uluna",
+          "decimals": 6,
+          "type": "native"
+        },
+        "token_b": {
+          "symbol": "WSTETH",
+          "address": "ibc/A356EC90DC3AE43D485514DA7260EDC7ABB5CFAA0654CE2524C739392975AD3C",
+          "decimals": 18,
+          "type": "ibc"
+        },
+        "ratio": 0.8336984978362451,
+        "ratio_type": "non-amplified"
+      },
+      {
+        "name": "wBTC.osmo-LUNA",
+        "dex": "Skeleton Swap",
+        "dex_subtype": null,
+        "pair_type": "pair",
+        "bucket": "bluechip",
+        "status": "active",
+        "dex_contract": "terra1aysexulsnuxna62m5rlnuzfcvct3df93gd4q0kkjtjcqsvv93s5sd0fyd2",
+        "lp_address": null,
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/51/bluechip/amplp",
+        "gauge_pool_id": "native:factory/terra1aysexulsnuxna62m5rlnuzfcvct3df93gd4q0kkjtjcqsvv93s5sd0fyd2/uLP",
+        "token_a": {
+          "symbol": "WBTC",
+          "address": "ibc/88386AC48152D48B34B082648DF836F975506F0B57DBBFC10A54213B1BF484CB",
+          "decimals": 8,
+          "type": "ibc"
+        },
+        "token_b": {
+          "symbol": "LUNA",
+          "address": "uluna",
+          "decimals": 6,
+          "type": "native"
+        },
+        "ratio": 0.8332941902014612,
+        "ratio_type": "non-amplified"
+      },
+      {
+        "name": "ATOM-dATOM",
+        "dex": "Astroport",
+        "dex_subtype": "concentrated",
+        "pair_type": "concentrated",
+        "bucket": "single",
+        "status": "active",
+        "dex_contract": "terra1a0h6vrzkztjystg8sd949qyrc6mw9gzxk2870cr2mukg53uzgvqs46qul9",
+        "lp_address": "terra12mvtdvn4fgtsqs4fwxr56vcwjw0xe23lhdfyjq5ghk7vmfeuxn0srau9q2",
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/29/single/amplp",
+        "gauge_pool_id": "cw20:terra12mvtdvn4fgtsqs4fwxr56vcwjw0xe23lhdfyjq5ghk7vmfeuxn0srau9q2",
+        "token_a": {
+          "symbol": "ATOM",
+          "address": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+          "decimals": 6,
+          "type": "ibc"
+        },
+        "token_b": {
+          "symbol": "dATOM",
+          "address": null,
+          "decimals": null,
+          "type": null,
+          "note": "not in token registry"
+        },
+        "ratio": 0.8494331812191079,
+        "ratio_type": "non-amplified"
+      },
+      {
+        "name": "wstETH-WETH.axl",
+        "dex": "Astroport",
+        "dex_subtype": "xyk",
+        "pair_type": "xyk",
+        "bucket": "single",
+        "status": "active",
+        "dex_contract": "terra1yga5eepqnpg77gaj59uqfkm2qtllvpq642cmx5gj5lzjf5v88wzs2srzp7",
+        "lp_address": "terra18336lhc2vt9s9tw4pqetvdwywg9555rduzv527r9q47smw89epcsxgxuny",
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/29/single/amplp",
+        "gauge_pool_id": "cw20:terra18336lhc2vt9s9tw4pqetvdwywg9555rduzv527r9q47smw89epcsxgxuny",
+        "token_a": {
+          "symbol": "WSTETH",
+          "address": "ibc/A356EC90DC3AE43D485514DA7260EDC7ABB5CFAA0654CE2524C739392975AD3C",
+          "decimals": 18,
+          "type": "ibc"
+        },
+        "token_b": {
+          "symbol": "WETH",
+          "address": null,
+          "decimals": null,
+          "type": null,
+          "note": "not in token registry"
+        },
+        "ratio": 0.8685175725030286,
+        "ratio_type": "non-amplified"
+      },
+      {
+        "name": "PAXG-WBTC",
+        "dex": "Astroport",
+        "dex_subtype": "concentrated",
+        "pair_type": "concentrated",
+        "bucket": "single",
+        "status": "active",
+        "dex_contract": "terra1g55qjcptzqgdyqfgzu5mj8x82955rvlxy4c37z5t6ldgz7cz033q0xr2lx",
+        "lp_address": "terra1h840qkh5pqmrvnt6d3m97slcl3q8k6czv67rrmnydp96xwda2afsghwnjr",
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/29/single/amplp",
+        "gauge_pool_id": "cw20:terra1h840qkh5pqmrvnt6d3m97slcl3q8k6czv67rrmnydp96xwda2afsghwnjr",
+        "token_a": {
+          "symbol": "PAXG",
+          "address": "ibc/0EF5630576C66968EF0787868CF09FD866FAD131BC148D24A148358A85F0EB62",
+          "decimals": 6,
+          "type": "ibc"
+        },
+        "token_b": {
+          "symbol": "WBTC",
+          "address": "ibc/88386AC48152D48B34B082648DF836F975506F0B57DBBFC10A54213B1BF484CB",
+          "decimals": 8,
+          "type": "ibc"
+        },
+        "ratio": 0.9823678089665374,
+        "ratio_type": "non-amplified"
+      },
+      {
+        "name": "cw20:terra1hqq6pnx74q0wae7eqqu2wgddzr2xn8l9gvd33sf",
+        "dex": null,
+        "dex_subtype": null,
+        "pair_type": "pair",
+        "bucket": "single",
+        "status": "active",
+        "dex_contract": "terra1tkj3j48d0xrh932szzsap3w8htfv3gmj2zld06an2kp90xzq5kzqvtjwfl",
+        "lp_address": "terra1hqq6pnx74q0wae7eqqu2wgddzr2xn8l9gvd33sfwqfew50qawj0sfn69fh",
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/29/single/amplp",
+        "gauge_pool_id": "cw20:terra1hqq6pnx74q0wae7eqqu2wgddzr2xn8l9gvd33sfwqfew50qawj0sfn69fh",
+        "token_a": {
+          "symbol": "ampROAR",
+          "address": null,
+          "decimals": 6,
+          "type": "native"
+        },
+        "token_b": {
+          "symbol": "ROAR",
+          "address": "terra1lxx40s29qvkrcj8fsa3yzyehy7w50umdvvnls2r830rys6lu2zns63eelv",
+          "decimals": 6,
+          "type": "cw20"
+        },
+        "ratio": 0.9456525511075793,
+        "ratio_type": "non-amplified"
+      },
+      {
+        "name": "USDC-USDT",
+        "dex": "Astroport",
+        "dex_subtype": "stable",
+        "pair_type": "stable",
+        "bucket": "single",
+        "status": "active",
+        "dex_contract": "terra1dnssvse0fqw4d4gqc8kvchfud5r6e8cr7w9cdpervhl2pgr2eecquujpg6",
+        "lp_address": "terra1huw82c9grj9xz9umkc8hqcjqgndadlkrp8rn9u6eh5jh5j2s2t7qs33vry",
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/29/single/amplp",
+        "gauge_pool_id": "cw20:terra1huw82c9grj9xz9umkc8hqcjqgndadlkrp8rn9u6eh5jh5j2s2t7qs33vry",
+        "token_a": {
+          "symbol": "USDC",
+          "address": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB",
+          "decimals": 6,
+          "type": "ibc"
+        },
+        "token_b": {
+          "symbol": "USDT",
+          "address": "ibc/9B19062D46CAB50361CE9B0A3E6D0A7A53AC9E7CB361F32A73CC733144A9A9E5",
+          "decimals": 6,
+          "type": "ibc"
+        },
+        "ratio": 0.8871261707938076,
+        "ratio_type": "non-amplified"
+      },
+      {
+        "name": "LUNA-arbLUNA",
+        "dex": "Astroport",
+        "dex_subtype": "concentrated",
+        "pair_type": "concentrated",
+        "bucket": "single",
+        "status": "active",
+        "dex_contract": "terra1p9lcjw8knxhtv2pyr9wa8e2ushjnjllljvsuu9cugv7trqynjzasz4x52j",
+        "lp_address": "terra1phz6qdzszgwj303rp5cfpfgcgfq0wwg0na2he980t58mryz69hyqsjkfc0",
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/29/single/amplp",
+        "gauge_pool_id": "cw20:terra1phz6qdzszgwj303rp5cfpfgcgfq0wwg0na2he980t58mryz69hyqsjkfc0",
+        "token_a": {
+          "symbol": "LUNA",
+          "address": "uluna",
+          "decimals": 6,
+          "type": "native"
+        },
+        "token_b": {
+          "symbol": "arbLUNA",
+          "address": "terra1se7rvuerys4kd2snt6vqswh9wugu49vhyzls8ymc02wl37g2p2ms5yz490",
+          "decimals": 6,
+          "type": "cw20"
+        },
+        "ratio": 0.9217736697393312,
+        "ratio_type": "non-amplified"
+      },
+      {
+        "name": "wBTC.osmo-wBTC.axl",
+        "dex": "Skeleton Swap",
+        "dex_subtype": null,
+        "pair_type": "pair",
+        "bucket": "single",
+        "status": "active",
+        "dex_contract": "terra13ywdferm4jtcperal9png3cvhtmar5se9nu4r49k7vujrakwy9zqa3rhwe",
+        "lp_address": null,
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/29/single/amplp",
+        "gauge_pool_id": "native:factory/terra13ywdferm4jtcperal9png3cvhtmar5se9nu4r49k7vujrakwy9zqa3rhwe/uLP",
+        "token_a": {
+          "symbol": "WBTC",
+          "address": "ibc/88386AC48152D48B34B082648DF836F975506F0B57DBBFC10A54213B1BF484CB",
+          "decimals": 8,
+          "type": "ibc"
+        },
+        "token_b": {
+          "symbol": "WBTC",
+          "address": "ibc/88386AC48152D48B34B082648DF836F975506F0B57DBBFC10A54213B1BF484CB",
+          "decimals": 8,
+          "type": "ibc"
+        },
+        "ratio": 0.845659024231229,
+        "ratio_type": "non-amplified"
+      },
+      {
+        "name": "USDC-USDt",
+        "dex": "Skeleton Swap",
+        "dex_subtype": null,
+        "pair_type": "pair",
+        "bucket": "single",
+        "status": "active",
+        "dex_contract": "terra178ca7z2w6346wlkmxwpw80s2a5fmas9q28xlzegkt4c4rdam67aql5fgxj",
+        "lp_address": null,
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/29/single/amplp",
+        "gauge_pool_id": "native:factory/terra178ca7z2w6346wlkmxwpw80s2a5fmas9q28xlzegkt4c4rdam67aql5fgxj/uLP",
+        "token_a": {
+          "symbol": "USDC",
+          "address": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB",
+          "decimals": 6,
+          "type": "ibc"
+        },
+        "token_b": {
+          "symbol": "USDT",
+          "address": "ibc/9B19062D46CAB50361CE9B0A3E6D0A7A53AC9E7CB361F32A73CC733144A9A9E5",
+          "decimals": 6,
+          "type": "ibc"
+        },
+        "ratio": 0.9469189466754685,
+        "ratio_type": "non-amplified"
+      },
+      {
+        "name": "ampROAR-ROAR",
+        "dex": "Skeleton Swap",
+        "dex_subtype": null,
+        "pair_type": "pair",
+        "bucket": "single",
+        "status": "active",
+        "dex_contract": "terra1d8ap3zyd6tfnruuuwvs0t927lr4zwptruhulfwnxjpqzudvyn8usfgl8ze",
+        "lp_address": null,
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/29/single/amplp",
+        "gauge_pool_id": "native:factory/terra1d8ap3zyd6tfnruuuwvs0t927lr4zwptruhulfwnxjpqzudvyn8usfgl8ze/uLP",
+        "token_a": {
+          "symbol": "ampROAR",
+          "address": null,
+          "decimals": 6,
+          "type": "native"
+        },
+        "token_b": {
+          "symbol": "ROAR",
+          "address": "terra1lxx40s29qvkrcj8fsa3yzyehy7w50umdvvnls2r830rys6lu2zns63eelv",
+          "decimals": 6,
+          "type": "cw20"
+        },
+        "ratio": 0.8453467679674069,
+        "ratio_type": "non-amplified"
+      }
+    ],
+    "inactive": [
+      {
+        "name": "LUNA-EURe",
+        "dex": "Skeleton Swap",
+        "dex_subtype": null,
+        "pair_type": "pair",
+        "bucket": "stable",
+        "status": "voted_but_below_threshold",
+        "dex_contract": "terra1gny66hmejvrkra39cn7r8f7y7yg06hy3cv2xehpxraqfgjtdtpnqjtmu53",
+        "lp_address": null,
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/5/stable/amplp",
+        "gauge_pool_id": "native:factory/terra1gny66hmejvrkra39cn7r8f7y7yg06hy3cv2xehpxraqfgjtdtpnqjtmu53/uLP",
+        "token_a": {
+          "symbol": "LUNA",
+          "address": "uluna",
+          "decimals": 6,
+          "type": "native"
+        },
+        "token_b": {
+          "symbol": "EURE",
+          "address": "ibc/8D52B251B447B7160421ACFBD50F6B0ABE5F98D2C404B03701130F12044439A1",
+          "decimals": 6,
+          "type": "ibc"
+        },
+        "ratio": 0.8702507372023304,
+        "ratio_type": "non-amplified"
+      },
+      {
+        "name": "LUNA-USDt",
+        "dex": "Skeleton Swap",
+        "dex_subtype": null,
+        "pair_type": "pair",
+        "bucket": "stable",
+        "status": "voted_but_below_threshold",
+        "dex_contract": "terra1wymgwg90ry2w04avy899ucmuuak7w8n3xw2msmw2jf9rfugre0ssenx4hn",
+        "lp_address": null,
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/5/stable/amplp",
+        "gauge_pool_id": "native:factory/terra1wymgwg90ry2w04avy899ucmuuak7w8n3xw2msmw2jf9rfugre0ssenx4hn/uLP",
+        "token_a": {
+          "symbol": "LUNA",
+          "address": "uluna",
+          "decimals": 6,
+          "type": "native"
+        },
+        "token_b": {
+          "symbol": "USDT",
+          "address": "ibc/9B19062D46CAB50361CE9B0A3E6D0A7A53AC9E7CB361F32A73CC733144A9A9E5",
+          "decimals": 6,
+          "type": "ibc"
+        },
+        "ratio": 0.833801579655428,
+        "ratio_type": "non-amplified"
+      },
+      {
+        "name": "ampLUNA-LUNA",
+        "dex": "Skeleton Swap",
+        "dex_subtype": null,
+        "pair_type": "pair",
+        "bucket": "project",
+        "status": "voted_but_below_threshold",
+        "dex_contract": "terra1tsx0dmasjvd45k6tdywzv77d5t9k3lpzyuleavuah77pg3lwm9cq4469pm",
+        "lp_address": "terra10un5hr6asmn7g0ggh9sz0x3v8f9evh5cvawk8xs65rghundc25mq7g5par",
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/23/project/amplp",
+        "gauge_pool_id": "cw20:terra10un5hr6asmn7g0ggh9sz0x3v8f9evh5cvawk8xs65rghundc25mq7g5par",
+        "token_a": {
+          "symbol": "ampLUNA",
+          "address": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+          "decimals": 6,
+          "type": "cw20"
+        },
+        "token_b": {
+          "symbol": "LUNA",
+          "address": "uluna",
+          "decimals": 6,
+          "type": "native"
+        },
+        "ratio": 0.852108161114903,
+        "ratio_type": "non-amplified"
+      },
+      {
+        "name": "LUNA-bLUNA",
+        "dex": "Astroport",
+        "dex_subtype": "stable",
+        "pair_type": "stable",
+        "bucket": "project",
+        "status": "voted_but_below_threshold",
+        "dex_contract": "terra1h32epkd72x7st0wk49z35qlpsxf26pw4ydacs8acq6uka7hgshmq7z7vl9",
+        "lp_address": "terra1h3z2zv6aw94fx5263dy6tgz6699kxmewlx3vrcu4jjrudg6xmtyqk6vt0u",
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/23/project/amplp",
+        "gauge_pool_id": "cw20:terra1h3z2zv6aw94fx5263dy6tgz6699kxmewlx3vrcu4jjrudg6xmtyqk6vt0u",
+        "token_a": {
+          "symbol": "bLUNA",
+          "address": "terra17aj4ty4sz4yhgm08na8drc0v03v2jwr3waxcqrwhajj729zhl7zqnpc0ml",
+          "decimals": 6,
+          "type": "cw20"
+        },
+        "token_b": {
+          "symbol": "LUNA",
+          "address": "uluna",
+          "decimals": 6,
+          "type": "native"
+        },
+        "ratio": 0.9271346400874009,
+        "ratio_type": "non-amplified"
+      },
+      {
+        "name": "LUNA-WHALE",
+        "dex": "Astroport",
+        "dex_subtype": "concentrated",
+        "pair_type": "concentrated",
+        "bucket": "project",
+        "status": "voted_but_below_threshold",
+        "dex_contract": "terra1a6d0lcvfzyllulaaazzg5j70yn4m3e2t90shtlxsr3fwhcg34g2sgwfr75",
+        "lp_address": "terra1stavsz7hhsw56tngxt6p5xmkm86a9nvgztgvv56wj7q6yceutmwsvrwjdz",
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/23/project/amplp",
+        "gauge_pool_id": "cw20:terra1stavsz7hhsw56tngxt6p5xmkm86a9nvgztgvv56wj7q6yceutmwsvrwjdz",
+        "token_a": {
+          "symbol": "WHALE",
+          "address": null,
+          "decimals": null,
+          "type": null,
+          "note": "not in token registry"
+        },
+        "token_b": {
+          "symbol": "LUNA",
+          "address": "uluna",
+          "decimals": 6,
+          "type": "native"
+        },
+        "ratio": 0.8586333378617036,
+        "ratio_type": "non-amplified"
+      },
+      {
+        "name": "LUNA-SWTH",
+        "dex": "Astroport",
+        "dex_subtype": "xyk",
+        "pair_type": "xyk",
+        "bucket": "project",
+        "status": "voted_but_below_threshold",
+        "dex_contract": "terra1crlsemxx6yjpeq3am9dzccln0dykusm685ecxscuyny7u596elqqj6xd9z",
+        "lp_address": "terra1wwy8xjk4mff7qp2g7qzmgfu9agd6wjdmz99crj94zv9tmh7dvhmq0jsf6a",
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/23/project/amplp",
+        "gauge_pool_id": "cw20:terra1wwy8xjk4mff7qp2g7qzmgfu9agd6wjdmz99crj94zv9tmh7dvhmq0jsf6a",
+        "token_a": {
+          "symbol": "SWTH",
+          "address": null,
+          "decimals": null,
+          "type": null,
+          "note": "not in token registry"
+        },
+        "token_b": {
+          "symbol": "LUNA",
+          "address": "uluna",
+          "decimals": 6,
+          "type": "native"
+        },
+        "ratio": 0.8466978739172311,
+        "ratio_type": "non-amplified"
+      },
+      {
+        "name": "LUNA-ROAR",
+        "dex": "Skeleton Swap",
+        "dex_subtype": null,
+        "pair_type": "pair",
+        "bucket": "project",
+        "status": "voted_but_below_threshold",
+        "dex_contract": "terra126w5m24usxydxn0tjqd73k8uw06r42wttahf9t0cjyhmljlqhrdsjucx45",
+        "lp_address": null,
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/23/project/amplp",
+        "gauge_pool_id": "native:factory/terra126w5m24usxydxn0tjqd73k8uw06r42wttahf9t0cjyhmljlqhrdsjucx45/uLP",
+        "token_a": {
+          "symbol": "LUNA",
+          "address": "uluna",
+          "decimals": 6,
+          "type": "native"
+        },
+        "token_b": {
+          "symbol": "ROAR",
+          "address": "terra1lxx40s29qvkrcj8fsa3yzyehy7w50umdvvnls2r830rys6lu2zns63eelv",
+          "decimals": 6,
+          "type": "cw20"
+        },
+        "ratio": 0.9712444111073362,
+        "ratio_type": "non-amplified"
+      },
+      {
+        "name": "CAPA-LUNA",
+        "dex": "Skeleton Swap",
+        "dex_subtype": null,
+        "pair_type": "pair",
+        "bucket": "project",
+        "status": "voted_but_below_threshold",
+        "dex_contract": "terra15rzp38yq2cqy2jnewc9vgzqguf3t2q0gqpv9evg8tckrtqp8x44qezhthc",
+        "lp_address": null,
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/23/project/amplp",
+        "gauge_pool_id": "native:factory/terra15rzp38yq2cqy2jnewc9vgzqguf3t2q0gqpv9evg8tckrtqp8x44qezhthc/uLP",
+        "token_a": {
+          "symbol": "CAPA",
+          "address": "terra1t4p3u8khpd7f8qzurwyafxt648dya6mp6vur3vaapswt6m24gkuqrfdhar",
+          "decimals": 6,
+          "type": "cw20"
+        },
+        "token_b": {
+          "symbol": "LUNA",
+          "address": "uluna",
+          "decimals": 6,
+          "type": "native"
+        },
+        "ratio": 0.8537171214525483,
+        "ratio_type": "non-amplified"
+      },
+      {
+        "name": "LUNA-SOLID",
+        "dex": "Skeleton Swap",
+        "dex_subtype": null,
+        "pair_type": "pair",
+        "bucket": "project",
+        "status": "voted_but_below_threshold",
+        "dex_contract": "terra18fved7svlqq9q9h23cg4uw97lllmg7fa03psevczy20ayhdwrm3sznjeh5",
+        "lp_address": null,
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/23/project/amplp",
+        "gauge_pool_id": "native:factory/terra18fved7svlqq9q9h23cg4uw97lllmg7fa03psevczy20ayhdwrm3sznjeh5/uLP",
+        "token_a": {
+          "symbol": "LUNA",
+          "address": "uluna",
+          "decimals": 6,
+          "type": "native"
+        },
+        "token_b": {
+          "symbol": "SOLID",
+          "address": "terra10aa3zdkrc7jwuf8ekl3zq7e7m42vmzqehcmu74e4egc7xkm5kr2s0muyst",
+          "decimals": 6,
+          "type": "cw20"
+        },
+        "ratio": 0.8750451604427366,
+        "ratio_type": "non-amplified"
+      },
+      {
+        "name": "LUNA-ASTRO",
+        "dex": "Skeleton Swap",
+        "dex_subtype": null,
+        "pair_type": "pair",
+        "bucket": "project",
+        "status": "voted_but_below_threshold",
+        "dex_contract": "terra1hvntefafgn05llkqyl6uxx6j0jjwmqjtxqdrwdm43s9tkzx7xkfqkcl7h6",
+        "lp_address": null,
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/23/project/amplp",
+        "gauge_pool_id": "native:factory/terra1hvntefafgn05llkqyl6uxx6j0jjwmqjtxqdrwdm43s9tkzx7xkfqkcl7h6/uLP",
+        "token_a": {
+          "symbol": "LUNA",
+          "address": "uluna",
+          "decimals": 6,
+          "type": "native"
+        },
+        "token_b": {
+          "symbol": "ASTRO",
+          "address": "terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26",
+          "decimals": 6,
+          "type": "cw20"
+        },
+        "ratio": 0.8455355957602684,
+        "ratio_type": "non-amplified"
+      },
+      {
+        "name": "USDC-SOLID",
+        "dex": "Skeleton Swap",
+        "dex_subtype": null,
+        "pair_type": "pair",
+        "bucket": "project",
+        "status": "voted_but_below_threshold",
+        "dex_contract": "terra1wje8lj3372njwuw8t4scmyp94t5pyxxh89tsnkrfyxghqh6aunzqz4a9k3",
+        "lp_address": null,
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/23/project/amplp",
+        "gauge_pool_id": "native:factory/terra1wje8lj3372njwuw8t4scmyp94t5pyxxh89tsnkrfyxghqh6aunzqz4a9k3/uLP",
+        "token_a": {
+          "symbol": "USDC",
+          "address": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB",
+          "decimals": 6,
+          "type": "ibc"
+        },
+        "token_b": {
+          "symbol": "SOLID",
+          "address": "terra10aa3zdkrc7jwuf8ekl3zq7e7m42vmzqehcmu74e4egc7xkm5kr2s0muyst",
+          "decimals": 6,
+          "type": "cw20"
+        },
+        "ratio": 0.9721059972105998,
+        "ratio_type": "non-amplified"
+      },
+      {
+        "name": "native:factory/terra1zushwxgqdkg22mtv9p946yp53r6de",
+        "dex": null,
+        "dex_subtype": null,
+        "pair_type": "pair",
+        "bucket": "project",
+        "status": "voted_but_below_threshold",
+        "dex_contract": "terra1zushwxgqdkg22mtv9p946yp53r6den6lv427esjaadua3ftzyjpsqgtl5z",
+        "lp_address": null,
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/23/project/amplp",
+        "gauge_pool_id": "native:factory/terra1zushwxgqdkg22mtv9p946yp53r6den6lv427esjaadua3ftzyjpsqgtl5z/uLP",
+        "token_a": {
+          "symbol": "LUNA",
+          "address": "uluna",
+          "decimals": 6,
+          "type": "native"
+        },
+        "token_b": {
+          "symbol": "WHALE",
+          "address": null,
+          "decimals": null,
+          "type": null,
+          "note": "not in token registry"
+        },
+        "ratio": 0.8299538489727867,
+        "ratio_type": "non-amplified"
+      },
+      {
+        "name": "LUNA-wBNB.axl",
+        "dex": "Astroport",
+        "dex_subtype": "concentrated",
+        "pair_type": "concentrated",
+        "bucket": "bluechip",
+        "status": "voted_but_below_threshold",
+        "dex_contract": "terra10clh64cpvjjen8f24qz2046d24s79w2ev2dyd9ke29wmqdqp4yjs3cyk0y",
+        "lp_address": "terra10ca0xhyjrzl3zk9g26yjxlw5rjplu5ts4jgcvvrgr62ml8jf57hqs3nck5",
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/51/bluechip/amplp",
+        "gauge_pool_id": "cw20:terra10ca0xhyjrzl3zk9g26yjxlw5rjplu5ts4jgcvvrgr62ml8jf57hqs3nck5",
+        "token_a": {
+          "symbol": "BNB",
+          "address": "ibc/1319C6B38CA613C89D78C2D1461B305038B1085F6855E8CD276FE3F7C9600B4C",
+          "decimals": 18,
+          "type": "ibc"
+        },
+        "token_b": {
+          "symbol": "LUNA",
+          "address": "uluna",
+          "decimals": 6,
+          "type": "native"
+        },
+        "ratio": 0.9137801820461111,
+        "ratio_type": "non-amplified"
+      },
+      {
+        "name": "LUNA-wBNB.wh",
+        "dex": "Astroport",
+        "dex_subtype": "concentrated",
+        "pair_type": "concentrated",
+        "bucket": "bluechip",
+        "status": "voted_but_below_threshold",
+        "dex_contract": "terra1v3xmc8nn8h8e7z55d80a72g4rgz6mrxyasxq089k8n6m40xldlksf2w5x8",
+        "lp_address": "terra12eu8jk4w7lgn2rk7xs46nz7c7r9fw8q98afy9adlwtkghazj40asjf65zu",
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/51/bluechip/amplp",
+        "gauge_pool_id": "cw20:terra12eu8jk4w7lgn2rk7xs46nz7c7r9fw8q98afy9adlwtkghazj40asjf65zu",
+        "token_a": {
+          "symbol": "LUNA",
+          "address": "uluna",
+          "decimals": 6,
+          "type": "native"
+        },
+        "token_b": {
+          "symbol": "WBNB",
+          "address": null,
+          "decimals": null,
+          "type": null,
+          "note": "not in token registry"
+        },
+        "ratio": 0.8516943179114866,
+        "ratio_type": "non-amplified"
+      },
+      {
+        "name": "LUNA-wstETH",
+        "dex": "Astroport",
+        "dex_subtype": "concentrated",
+        "pair_type": "concentrated",
+        "bucket": "bluechip",
+        "status": "voted_but_below_threshold",
+        "dex_contract": "terra1u0sp5gaw9amfa8vsaaqvvjpqqdyz4eeslzdjsgaq40afctpx7f6s6augj2",
+        "lp_address": "terra19d8tttv0lvhwpj828qqrcmm6yaqdfhrchfheuufcw4kywtmk9u3q98ask3",
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/51/bluechip/amplp",
+        "gauge_pool_id": "cw20:terra19d8tttv0lvhwpj828qqrcmm6yaqdfhrchfheuufcw4kywtmk9u3q98ask3",
+        "token_a": {
+          "symbol": "LUNA",
+          "address": "uluna",
+          "decimals": 6,
+          "type": "native"
+        },
+        "token_b": {
+          "symbol": "WSTETH",
+          "address": "ibc/A356EC90DC3AE43D485514DA7260EDC7ABB5CFAA0654CE2524C739392975AD3C",
+          "decimals": 18,
+          "type": "ibc"
+        },
+        "ratio": 0.9413886997957794,
+        "ratio_type": "non-amplified"
+      },
+      {
+        "name": "LUNA-WBTC",
+        "dex": "Astroport",
+        "dex_subtype": "concentrated",
+        "pair_type": "concentrated",
+        "bucket": "bluechip",
+        "status": "voted_but_below_threshold",
+        "dex_contract": "terra1p996av7ftzj973swd4yt2er2sn3v9y5j9qfxz67gatnrpf8lfgwsel8hcg",
+        "lp_address": "terra1tfr4ghftlsf2l9nxr3clewk52g5q8wj7m2rglw67dkql9x6u7w6q53gwrn",
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/51/bluechip/amplp",
+        "gauge_pool_id": "cw20:terra1tfr4ghftlsf2l9nxr3clewk52g5q8wj7m2rglw67dkql9x6u7w6q53gwrn",
+        "token_a": {
+          "symbol": "WBTC",
+          "address": "ibc/88386AC48152D48B34B082648DF836F975506F0B57DBBFC10A54213B1BF484CB",
+          "decimals": 8,
+          "type": "ibc"
+        },
+        "token_b": {
+          "symbol": "LUNA",
+          "address": "uluna",
+          "decimals": 6,
+          "type": "native"
+        },
+        "ratio": 1,
+        "ratio_type": "unity"
+      },
+      {
+        "name": "LUNA-wSOL.wh",
+        "dex": "Astroport",
+        "dex_subtype": "concentrated",
+        "pair_type": "concentrated",
+        "bucket": "bluechip",
+        "status": "voted_but_below_threshold",
+        "dex_contract": "terra16zzqwekwsqn4zlsyu4vhjr52ee2hdvppjcr8h22qznjadaazzdgsvd905d",
+        "lp_address": "terra1vc66wpr2ghcesnf203em6yefpze3vrmq99n8yz0me3jzs6g4e8rs2kec75",
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/51/bluechip/amplp",
+        "gauge_pool_id": "cw20:terra1vc66wpr2ghcesnf203em6yefpze3vrmq99n8yz0me3jzs6g4e8rs2kec75",
+        "token_a": {
+          "symbol": "LUNA",
+          "address": "uluna",
+          "decimals": 6,
+          "type": "native"
+        },
+        "token_b": {
+          "symbol": "SOL",
+          "address": null,
+          "decimals": null,
+          "type": null,
+          "note": "not in token registry"
+        },
+        "ratio": 0.8355241457762255,
+        "ratio_type": "non-amplified"
+      },
+      {
+        "name": "LUNA-wSOL",
+        "dex": "Skeleton Swap",
+        "dex_subtype": null,
+        "pair_type": "pair",
+        "bucket": "bluechip",
+        "status": "voted_but_below_threshold",
+        "dex_contract": "terra12u7a9wkjqrkhxjcxx70uhfx8y49j4lclfnet2smw9agpnrv9chps27n9mh",
+        "lp_address": null,
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/51/bluechip/amplp",
+        "gauge_pool_id": "native:factory/terra12u7a9wkjqrkhxjcxx70uhfx8y49j4lclfnet2smw9agpnrv9chps27n9mh/uLP",
+        "token_a": {
+          "symbol": "LUNA",
+          "address": "uluna",
+          "decimals": 6,
+          "type": "native"
+        },
+        "token_b": {
+          "symbol": "SOL",
+          "address": null,
+          "decimals": null,
+          "type": null,
+          "note": "not in token registry"
+        },
+        "ratio": 0.8301658709082765,
+        "ratio_type": "non-amplified"
+      },
+      {
+        "name": "USDC-USDt",
+        "dex": "Skeleton Swap",
+        "dex_subtype": null,
+        "pair_type": "pair",
+        "bucket": "bluechip",
+        "status": "voted_but_below_threshold",
+        "dex_contract": "terra178ca7z2w6346wlkmxwpw80s2a5fmas9q28xlzegkt4c4rdam67aql5fgxj",
+        "lp_address": null,
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/51/bluechip/amplp",
+        "gauge_pool_id": "native:factory/terra178ca7z2w6346wlkmxwpw80s2a5fmas9q28xlzegkt4c4rdam67aql5fgxj/uLP",
+        "token_a": {
+          "symbol": "USDC",
+          "address": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB",
+          "decimals": 6,
+          "type": "ibc"
+        },
+        "token_b": {
+          "symbol": "USDT",
+          "address": "ibc/9B19062D46CAB50361CE9B0A3E6D0A7A53AC9E7CB361F32A73CC733144A9A9E5",
+          "decimals": 6,
+          "type": "ibc"
+        },
+        "ratio": 0.9469189466754685,
+        "ratio_type": "non-amplified"
+      },
+      {
+        "name": "native:factory/terra17vas9rhxhc6j6f5wrup9cqapxn74j",
+        "dex": null,
+        "dex_subtype": null,
+        "pair_type": "pair",
+        "bucket": "bluechip",
+        "status": "voted_but_below_threshold",
+        "dex_contract": "terra17vas9rhxhc6j6f5wrup9cqapxn74jvpft069py7l7l9kr7wx3tnsxrazux",
+        "lp_address": null,
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/51/bluechip/amplp",
+        "gauge_pool_id": "native:factory/terra17vas9rhxhc6j6f5wrup9cqapxn74jvpft069py7l7l9kr7wx3tnsxrazux/uLP",
+        "token_a": {
+          "symbol": "USDC",
+          "address": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB",
+          "decimals": 6,
+          "type": "ibc"
+        },
+        "token_b": {
+          "symbol": "USDT",
+          "address": "ibc/9B19062D46CAB50361CE9B0A3E6D0A7A53AC9E7CB361F32A73CC733144A9A9E5",
+          "decimals": 6,
+          "type": "ibc"
+        },
+        "ratio": 0.8450677312235001,
+        "ratio_type": "non-amplified"
+      },
+      {
+        "name": "LUNA-wBNB",
+        "dex": "Skeleton Swap",
+        "dex_subtype": null,
+        "pair_type": "pair",
+        "bucket": "bluechip",
+        "status": "voted_but_below_threshold",
+        "dex_contract": "terra1m5juz238n27dd24d9e3kacmqax8gu7j5ee9hhfczpl52f3n7adaqudk2c9",
+        "lp_address": null,
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/51/bluechip/amplp",
+        "gauge_pool_id": "native:factory/terra1m5juz238n27dd24d9e3kacmqax8gu7j5ee9hhfczpl52f3n7adaqudk2c9/uLP",
+        "token_a": {
+          "symbol": "LUNA",
+          "address": "uluna",
+          "decimals": 6,
+          "type": "native"
+        },
+        "token_b": {
+          "symbol": "WBNB",
+          "address": null,
+          "decimals": null,
+          "type": null,
+          "note": "not in token registry"
+        },
+        "ratio": 1,
+        "ratio_type": "unity"
+      },
+      {
+        "name": "LUNA-INJ",
+        "dex": "Skeleton Swap",
+        "dex_subtype": null,
+        "pair_type": "pair",
+        "bucket": "bluechip",
+        "status": "voted_but_below_threshold",
+        "dex_contract": "terra1q2gd6kc7nt8xct94chrlsqtpxfs9rve0j76lquce624y5zp85cdseshh85",
+        "lp_address": null,
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/51/bluechip/amplp",
+        "gauge_pool_id": "native:factory/terra1q2gd6kc7nt8xct94chrlsqtpxfs9rve0j76lquce624y5zp85cdseshh85/uLP",
+        "token_a": {
+          "symbol": "LUNA",
+          "address": "uluna",
+          "decimals": 6,
+          "type": "native"
+        },
+        "token_b": {
+          "symbol": "INJ",
+          "address": null,
+          "decimals": null,
+          "type": null,
+          "note": "not in token registry"
+        },
+        "ratio": 0.8333157238010518,
+        "ratio_type": "non-amplified"
+      },
+      {
+        "name": "USDC-EURe",
+        "dex": "Skeleton Swap",
+        "dex_subtype": null,
+        "pair_type": "pair",
+        "bucket": "bluechip",
+        "status": "voted_but_below_threshold",
+        "dex_contract": "terra1t9uvn05g0hdlx2nnqug3lt3pkla4sfdj0n0xnd66kmwvyt25y65sk37cej",
+        "lp_address": null,
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/51/bluechip/amplp",
+        "gauge_pool_id": "native:factory/terra1t9uvn05g0hdlx2nnqug3lt3pkla4sfdj0n0xnd66kmwvyt25y65sk37cej/uLP",
+        "token_a": {
+          "symbol": "USDC",
+          "address": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB",
+          "decimals": 6,
+          "type": "ibc"
+        },
+        "token_b": {
+          "symbol": "EURE",
+          "address": "ibc/8D52B251B447B7160421ACFBD50F6B0ABE5F98D2C404B03701130F12044439A1",
+          "decimals": 6,
+          "type": "ibc"
+        },
+        "ratio": 0.8702787374793587,
+        "ratio_type": "non-amplified"
+      },
+      {
+        "name": "WBTC.axl-WBTC.osmo",
+        "dex": "Astroport",
+        "dex_subtype": "stable",
+        "pair_type": "stable",
+        "bucket": "single",
+        "status": "voted_but_below_threshold",
+        "dex_contract": "terra1mps5z5gt2c2akwcp86mq0zhw66kdugtc3selcyradtje0vp0z49sfrk8jx",
+        "lp_address": "terra10e2rz5etaped4nh0vk502hf7uwtz5lqvxqatxl4qyr0chcynxf2swhfwww",
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/29/single/amplp",
+        "gauge_pool_id": "cw20:terra10e2rz5etaped4nh0vk502hf7uwtz5lqvxqatxl4qyr0chcynxf2swhfwww",
+        "token_a": {
+          "symbol": "WBTC",
+          "address": "ibc/88386AC48152D48B34B082648DF836F975506F0B57DBBFC10A54213B1BF484CB",
+          "decimals": 8,
+          "type": "ibc"
+        },
+        "token_b": {
+          "symbol": "WBTC",
+          "address": "ibc/88386AC48152D48B34B082648DF836F975506F0B57DBBFC10A54213B1BF484CB",
+          "decimals": 8,
+          "type": "ibc"
+        },
+        "ratio": 0.8686464340958848,
+        "ratio_type": "non-amplified"
+      },
+      {
+        "name": "cw20:terra10xwhrfj2hqtwr4jwam3e24w92ypgl85lqz35lqz",
+        "dex": null,
+        "dex_subtype": null,
+        "pair_type": "pair",
+        "bucket": "single",
+        "status": "zero_vp",
+        "dex_contract": "terra1sjujvcvkszrt84280agzv0du7tsrf44y4n7hcd9n8y0q7snfgersd68ens",
+        "lp_address": "terra10xwhrfj2hqtwr4jwam3e24w92ypgl85lqz35lqzqhuay5r2h7pgqv4596s",
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/29/single/amplp",
+        "gauge_pool_id": "cw20:terra10xwhrfj2hqtwr4jwam3e24w92ypgl85lqz35lqzqhuay5r2h7pgqv4596s",
+        "token_a": {
+          "symbol": "ROAR",
+          "address": "terra1lxx40s29qvkrcj8fsa3yzyehy7w50umdvvnls2r830rys6lu2zns63eelv",
+          "decimals": 6,
+          "type": "cw20"
+        },
+        "token_b": {
+          "symbol": "amproar",
+          "address": null,
+          "decimals": null,
+          "type": null,
+          "note": "not in token registry"
+        },
+        "ratio": null,
+        "ratio_type": null
+      },
+      {
+        "name": "cw20:terra16z3ksy6aqjkug8l3u48q0kvdaqk3dgaytl7ykt6",
+        "dex": null,
+        "dex_subtype": null,
+        "pair_type": "pair",
+        "bucket": "single",
+        "status": "voted_but_below_threshold",
+        "dex_contract": "terra1ntx595elf3ukxcd0wy76h24rzztcv2p6n3wmfd358ks95prv42fs9mn63n",
+        "lp_address": "terra16z3ksy6aqjkug8l3u48q0kvdaqk3dgaytl7ykt6vg2he9d6z9rgslr4k7l",
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/29/single/amplp",
+        "gauge_pool_id": "cw20:terra16z3ksy6aqjkug8l3u48q0kvdaqk3dgaytl7ykt6vg2he9d6z9rgslr4k7l",
+        "token_a": {
+          "symbol": "ampWHALE",
+          "address": null,
+          "decimals": null,
+          "type": null,
+          "note": "not in token registry"
+        },
+        "token_b": {
+          "symbol": "WHALE",
+          "address": null,
+          "decimals": null,
+          "type": null,
+          "note": "not in token registry"
+        },
+        "ratio": 0.8425951934075259,
+        "ratio_type": "non-amplified"
+      },
+      {
+        "name": "LUNA-arbLUNA",
+        "dex": "Astroport",
+        "dex_subtype": "stable",
+        "pair_type": "stable",
+        "bucket": "single",
+        "status": "voted_but_below_threshold",
+        "dex_contract": "terra16nfwldn9j5xhry2y78gvm3x4vte8vu77zr3ctlan79w5f5aheawqnz7a4f",
+        "lp_address": "terra19z7g4fnu529250sdkdmgm9kw4qgwmmqrjas9t24ll84mpd94lxnshf0z2h",
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/29/single/amplp",
+        "gauge_pool_id": "cw20:terra19z7g4fnu529250sdkdmgm9kw4qgwmmqrjas9t24ll84mpd94lxnshf0z2h",
+        "token_a": {
+          "symbol": "arbLUNA",
+          "address": "terra1se7rvuerys4kd2snt6vqswh9wugu49vhyzls8ymc02wl37g2p2ms5yz490",
+          "decimals": 6,
+          "type": "cw20"
+        },
+        "token_b": {
+          "symbol": "LUNA",
+          "address": "uluna",
+          "decimals": 6,
+          "type": "native"
+        },
+        "ratio": 0.8447355950868021,
+        "ratio_type": "non-amplified"
+      },
+      {
+        "name": "cw20:terra1le46uu9qjk53aktjs8dev96sl9sd2ujvcpspk75",
+        "dex": null,
+        "dex_subtype": null,
+        "pair_type": "pair",
+        "bucket": "single",
+        "status": "voted_but_below_threshold",
+        "dex_contract": "terra1j9jmsplecj9ay2py27953p84nfmv7f6ce75ms5fleyhd0aecpc7q0hgmsa",
+        "lp_address": "terra1le46uu9qjk53aktjs8dev96sl9sd2ujvcpspk75pdeg0txfvhyuswm6653",
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/29/single/amplp",
+        "gauge_pool_id": "cw20:terra1le46uu9qjk53aktjs8dev96sl9sd2ujvcpspk75pdeg0txfvhyuswm6653",
+        "token_a": {
+          "symbol": "bWHALE",
+          "address": null,
+          "decimals": null,
+          "type": null,
+          "note": "not in token registry"
+        },
+        "token_b": {
+          "symbol": "WHALE",
+          "address": null,
+          "decimals": null,
+          "type": null,
+          "note": "not in token registry"
+        },
+        "ratio": 0.8426539849349598,
+        "ratio_type": "non-amplified"
+      },
+      {
+        "name": "SWTH-rSWTH",
+        "dex": "Astroport",
+        "dex_subtype": "xyk",
+        "pair_type": "xyk",
+        "bucket": "single",
+        "status": "voted_but_below_threshold",
+        "dex_contract": "terra1rzw2egugtjhxz2x58z55kwldm96fzck8qsf9srf5v0uehf64a2asjsak68",
+        "lp_address": "terra1mnucaeckccseq66kglv299wasp02akyh535jcpcdu37tdakr92esf9mjm5",
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/29/single/amplp",
+        "gauge_pool_id": "cw20:terra1mnucaeckccseq66kglv299wasp02akyh535jcpcdu37tdakr92esf9mjm5",
+        "token_a": {
+          "symbol": "SWTH",
+          "address": null,
+          "decimals": null,
+          "type": null,
+          "note": "not in token registry"
+        },
+        "token_b": {
+          "symbol": "rSWTH",
+          "address": null,
+          "decimals": null,
+          "type": null,
+          "note": "not in token registry"
+        },
+        "ratio": 0.8497184111145414,
+        "ratio_type": "non-amplified"
+      },
+      {
+        "name": "ATOM-stATOM",
+        "dex": "Astroport",
+        "dex_subtype": "concentrated",
+        "pair_type": "concentrated",
+        "bucket": "single",
+        "status": "voted_but_below_threshold",
+        "dex_contract": "terra1f9vmtntpjmkyhkxtlc49jcq6cv8rfz0kr06zv6efdtdgae4m9y9qlzm36t",
+        "lp_address": "terra1pz99udaf85erk8lumjylczz0cuf70mmq9gns3ejxt7s3mk266mqq6gkqkn",
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/29/single/amplp",
+        "gauge_pool_id": "cw20:terra1pz99udaf85erk8lumjylczz0cuf70mmq9gns3ejxt7s3mk266mqq6gkqkn",
+        "token_a": {
+          "symbol": "ATOM",
+          "address": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+          "decimals": 6,
+          "type": "ibc"
+        },
+        "token_b": {
+          "symbol": "stATOM",
+          "address": null,
+          "decimals": null,
+          "type": null,
+          "note": "not in token registry"
+        },
+        "ratio": 0.9087011933727263,
+        "ratio_type": "non-amplified"
+      },
+      {
+        "name": "wETH-wstETH",
+        "dex": "Skeleton Swap",
+        "dex_subtype": null,
+        "pair_type": "pair",
+        "bucket": "single",
+        "status": "voted_but_below_threshold",
+        "dex_contract": "terra12252e02w0k5yv9mryctth4j3y2sdas0xremw0jznzwal5v3xeqjst7q537",
+        "lp_address": null,
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/29/single/amplp",
+        "gauge_pool_id": "native:factory/terra12252e02w0k5yv9mryctth4j3y2sdas0xremw0jznzwal5v3xeqjst7q537/uLP",
+        "token_a": {
+          "symbol": "WETH",
+          "address": null,
+          "decimals": null,
+          "type": null,
+          "note": "not in token registry"
+        },
+        "token_b": {
+          "symbol": "WSTETH",
+          "address": "ibc/A356EC90DC3AE43D485514DA7260EDC7ABB5CFAA0654CE2524C739392975AD3C",
+          "decimals": 18,
+          "type": "ibc"
+        },
+        "ratio": 1,
+        "ratio_type": "unity"
+      },
+      {
+        "name": "ATOM-dATOM",
+        "dex": "Skeleton Swap",
+        "dex_subtype": null,
+        "pair_type": "pair",
+        "bucket": "single",
+        "status": "voted_but_below_threshold",
+        "dex_contract": "terra1aa8nurhuk7rwedhjyzptggypuxd3y66qp4nsx6ph240g37esdm7qyheqkd",
+        "lp_address": null,
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/29/single/amplp",
+        "gauge_pool_id": "native:factory/terra1aa8nurhuk7rwedhjyzptggypuxd3y66qp4nsx6ph240g37esdm7qyheqkd/uLP",
+        "token_a": {
+          "symbol": "ATOM",
+          "address": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+          "decimals": 6,
+          "type": "ibc"
+        },
+        "token_b": {
+          "symbol": "dATOM",
+          "address": null,
+          "decimals": null,
+          "type": null,
+          "note": "not in token registry"
+        },
+        "ratio": 0.8450827471725953,
+        "ratio_type": "non-amplified"
+      },
+      {
+        "name": "LUNA-arbLUNA",
+        "dex": "Skeleton Swap",
+        "dex_subtype": null,
+        "pair_type": "pair",
+        "bucket": "single",
+        "status": "voted_but_below_threshold",
+        "dex_contract": "terra1wttdzwa6pdegtrdjdw49y0pd3dd8qd3cqn89j6t9v978lx05rr8sew5jyq",
+        "lp_address": null,
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/29/single/amplp",
+        "gauge_pool_id": "native:factory/terra1wttdzwa6pdegtrdjdw49y0pd3dd8qd3cqn89j6t9v978lx05rr8sew5jyq/uLP",
+        "token_a": {
+          "symbol": "LUNA",
+          "address": "uluna",
+          "decimals": 6,
+          "type": "native"
+        },
+        "token_b": {
+          "symbol": "arbLUNA",
+          "address": "terra1se7rvuerys4kd2snt6vqswh9wugu49vhyzls8ymc02wl37g2p2ms5yz490",
+          "decimals": 6,
+          "type": "cw20"
+        },
+        "ratio": 0.8455997097677901,
+        "ratio_type": "non-amplified"
+      }
+    ],
+    "single": [
+      {
+        "name": "ampCAPA",
+        "dex": "Single",
+        "dex_subtype": "single",
+        "pair_type": "single",
+        "bucket": "single",
+        "status": "active",
+        "dex_contract": null,
+        "lp_address": null,
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/29/single/amplp",
+        "gauge_pool_id": "native:factory/terra186rpfczl7l2kugdsqqedegl4es4hp624phfc7ddy8my02a4e8lgq5rlx7y/ampCAPA",
+        "token_a": null,
+        "token_b": null,
+        "ratio": 0.85345522185701,
+        "ratio_type": "non-amplified"
+      },
+      {
+        "name": "xASTRO",
+        "dex": "Single",
+        "dex_subtype": "single",
+        "pair_type": "single",
+        "bucket": "single",
+        "status": "active",
+        "dex_contract": null,
+        "lp_address": null,
+        "amplp_denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/29/single/amplp",
+        "gauge_pool_id": "native:ibc/65B3EB6263482979FD7A80E3FFB9D0C85CFBF6DB63EB8DDE918B2984A40CEAB6",
+        "token_a": null,
+        "token_b": null,
+        "ratio": 0.8447986823335981,
+        "ratio_type": "non-amplified"
+      }
+    ]
+  },
+  "tokens": {
+    "LUNA": {
+      "type": "native",
+      "denom": "uluna",
+      "decimals": 6,
+      "cgId": "terra-luna-2",
+      "price": {
+        "from": "lp"
+      }
+    },
+    "USDC": {
+      "type": "ibc",
+      "denom": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB",
+      "decimals": 6,
+      "cgId": "usd-coin",
+      "price": {
+        "from": "stable"
+      }
+    },
+    "USDT": {
+      "type": "ibc",
+      "denom": "ibc/9B19062D46CAB50361CE9B0A3E6D0A7A53AC9E7CB361F32A73CC733144A9A9E5",
+      "decimals": 6,
+      "cgId": "tether",
+      "price": {
+        "from": "stable"
+      }
+    },
+    "WBTC": {
+      "type": "ibc",
+      "denom": "ibc/88386AC48152D48B34B082648DF836F975506F0B57DBBFC10A54213B1BF484CB",
+      "decimals": 8,
+      "cgId": "wrapped-bitcoin",
+      "price": {
+        "from": "lp"
+      }
+    },
+    "PAXG": {
+      "type": "ibc",
+      "denom": "ibc/0EF5630576C66968EF0787868CF09FD866FAD131BC148D24A148358A85F0EB62",
+      "decimals": 6,
+      "cgId": "pax-gold",
+      "price": {
+        "from": "lp"
+      }
+    },
+    "EURE": {
+      "type": "ibc",
+      "denom": "ibc/8D52B251B447B7160421ACFBD50F6B0ABE5F98D2C404B03701130F12044439A1",
+      "decimals": 6,
+      "cgId": "euroe-stablecoin",
+      "price": {
+        "from": "lp"
+      }
+    },
+    "ATOM": {
+      "type": "ibc",
+      "denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+      "decimals": 6,
+      "cgId": "cosmos",
+      "price": {
+        "from": "lp"
+      }
+    },
+    "ETH": {
+      "type": "ibc",
+      "denom": "ibc/20850C646CDDDC2270E9BBDB08558B5FEE57B647EC6827F41096AABFD8A0471B",
+      "decimals": 18,
+      "cgId": "ethereum",
+      "price": {
+        "from": "lp"
+      }
+    },
+    "WSTETH": {
+      "type": "ibc",
+      "denom": "ibc/A356EC90DC3AE43D485514DA7260EDC7ABB5CFAA0654CE2524C739392975AD3C",
+      "decimals": 18,
+      "cgId": "wrapped-steth",
+      "price": {
+        "from": "lp"
+      }
+    },
+    "BNB": {
+      "type": "ibc",
+      "denom": "ibc/1319C6B38CA613C89D78C2D1461B305038B1085F6855E8CD276FE3F7C9600B4C",
+      "decimals": 18,
+      "cgId": "binancecoin",
+      "price": {
+        "from": "lp"
+      }
+    },
+    "xASTRO": {
+      "type": "ibc",
+      "denom": "ibc/65B3EB6263482979FD7A80E3FFB9D0C85CFBF6DB63EB8DDE918B2984A40CEAB6",
+      "decimals": 6,
+      "cgId": null,
+      "price": {
+        "from": "lp"
+      }
+    },
+    "ASTRO": {
+      "type": "cw20",
+      "address": "terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26",
+      "decimals": 6,
+      "cgId": "astroport-fi",
+      "price": {
+        "from": "lp"
+      }
+    },
+    "CAPA": {
+      "type": "cw20",
+      "address": "terra1t4p3u8khpd7f8qzurwyafxt648dya6mp6vur3vaapswt6m24gkuqrfdhar",
+      "decimals": 6,
+      "cgId": "capapult",
+      "price": {
+        "from": "lp"
+      }
+    },
+    "SOLID": {
+      "type": "cw20",
+      "address": "terra10aa3zdkrc7jwuf8ekl3zq7e7m42vmzqehcmu74e4egc7xkm5kr2s0muyst",
+      "decimals": 6,
+      "cgId": "solid-2",
+      "price": {
+        "from": "lp"
+      }
+    },
+    "ROAR": {
+      "type": "cw20",
+      "address": "terra1lxx40s29qvkrcj8fsa3yzyehy7w50umdvvnls2r830rys6lu2zns63eelv",
+      "decimals": 6,
+      "cgId": "lion-dao",
+      "price": {
+        "from": "lp"
+      }
+    },
+    "ampLUNA": {
+      "type": "cw20",
+      "address": "terra1ecgazyd0waaj3g7l9cmy5gulhxkps2gmxu9ghducvuypjq68mq2s5lvsct",
+      "decimals": 6,
+      "cgId": "eris-amplified-luna",
+      "lst": true,
+      "price": {
+        "from": "ratio",
+        "hub": "ampLUNA"
+      }
+    },
+    "arbLUNA": {
+      "type": "cw20",
+      "address": "terra1se7rvuerys4kd2snt6vqswh9wugu49vhyzls8ymc02wl37g2p2ms5yz490",
+      "decimals": 6,
+      "cgId": "eris-arbitrage-luna",
+      "lst": true,
+      "price": {
+        "from": "ratio",
+        "hub": "arbLUNA"
+      }
+    },
+    "bLUNA": {
+      "type": "cw20",
+      "address": "terra17aj4ty4sz4yhgm08na8drc0v03v2jwr3waxcqrwhajj729zhl7zqnpc0ml",
+      "decimals": 6,
+      "cgId": "backbone-labs-staked-luna",
+      "lst": true,
+      "price": {
+        "from": "ratio",
+        "hub": "bLUNA"
+      }
+    },
+    "ampCAPA": {
+      "type": "native",
+      "denom": "factory/terra186rpfczl7l2kugdsqqedegl4es4hp624phfc7ddy8my02a4e8lgq5rlx7y/ampCAPA",
+      "decimals": 6,
+      "cgId": null,
+      "lst": true,
+      "price": {
+        "from": "ratio",
+        "hub": "ampCAPA"
+      }
+    },
+    "ampROAR": {
+      "type": "native",
+      "denom": null,
+      "decimals": 6,
+      "cgId": null,
+      "lst": true,
+      "price": {
+        "from": "ratio",
+        "hub": "ampROAR"
+      }
+    }
+  },
+  "ratio_hubs": {
+    "ampLUNA": {
+      "hub": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
+      "query": {
+        "exchange_rates": {}
+      },
+      "ratio_path": "exchange_rates[0][1]",
+      "baseToken": "LUNA"
+    },
+    "arbLUNA": {
+      "hub": "terra1r9gls56glvuc4jedsvc3uwh6vj95mqm9efc7hnweqxa2nlme5cyqxygy5m",
+      "query": {
+        "state": {}
+      },
+      "ratio_path": "exchange_rate",
+      "baseToken": "LUNA"
+    },
+    "bLUNA": {
+      "hub": "terra1l2nd99yze5fszmhl5svyh5fky9wm4nz4etlgnztfu4e8809gd52q04n3ea",
+      "query": {
+        "state": {}
+      },
+      "ratio_path": "exchange_rate",
+      "baseToken": "LUNA"
+    },
+    "ampROAR": {
+      "hub": "terra1vklefn7n6cchn0u962w3gaszr4vf52wjvd4y95t2sydwpmpdtszsqvk9wy",
+      "query": {
+        "state": {}
+      },
+      "ratio_path": "exchange_rate",
+      "baseToken": "ROAR"
+    },
+    "ampCAPA": {
+      "hub": "terra186rpfczl7l2kugdsqqedegl4es4hp624phfc7ddy8my02a4e8lgq5rlx7y",
+      "query": {
+        "state": {}
+      },
+      "ratio_path": "exchange_rate",
+      "baseToken": "CAPA"
+    }
+  },
+  "contracts": {
+    "tla": {
+      "gauge_controller": {
+        "address": "terra1hfksrhchkmsj4qdq33wkksrslnfles6y2l77fmmzeep0xmq24l2smsd3lj",
+        "queries": [
+          "user_info",
+          "user_pending_rebase",
+          "user_first_participation"
+        ]
+      },
+      "voting_escrow": {
+        "address": "terra1uqhj8agyeaz8fu6mdggfuwr3lp32jlrx5hqag4jxexde92rzkamq3l62zg",
+        "kind": "cw721",
+        "queries": [
+          "all_tokens",
+          "owner_of",
+          "num_tokens",
+          "tokens",
+          "lock_info"
+        ]
+      },
+      "bribe_manager": {
+        "address": "terra1tuuwm8yrj54qeg0c8xu00aha9ryatyhtczq8qq2q8tntuw0auzas9037wh",
+        "queries": [
+          "user_claimable"
+        ]
+      },
+      "asset_compounder": {
+        "address": "terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx",
+        "queries": [
+          "asset_configs",
+          "user_infos"
+        ],
+        "note": "mints amplified LP as factory/<this>/<n>/<bucket>/amplp"
+      },
+      "staking": {
+        "queries": [
+          "all_staked_balances",
+          "all_pending_rewards"
+        ],
+        "buckets": {
+          "stable": "terra1v399cx9drllm70wxfsgvfe694tdsd9x96p9ha36w7muffe4znlusqswspq",
+          "project": "terra1awq6t7jfakg9wfjn40fk3wzwmd57mvrqtt3a39z9rmet7wdjj3ysgw3lpa",
+          "bluechip": "terra14mmvqn0kthw6sre75vku263lafn5655mkjdejqjedjga4cw0qx2qlf4arv",
+          "single": "terra1qdz5qgafx88kp5mf6m2tah8742g4u5g2cek0m3jrgssexexk7g4qw6e23k"
+        }
+      }
+    },
+    "nft": {
+      "adao_collection": {
+        "address": "terra1phr9fngjv7a8an4dhmhd0u0f98wazxfnzccqtyheq4zqrrp4fpuqw3apw9",
+        "kind": "cw721",
+        "queries": [
+          "all_tokens",
+          "owner_of",
+          "num_tokens",
+          "nft_info",
+          "contract_info"
+        ]
+      }
+    },
+    "governance": {
+      "dao_core": {
+        "address": "terra1csp8gsjk2yyxzqewza6lkjvwkspn7zs2jvamk9uf05crtcakf6gszk2g8y",
+        "queries": [
+          "dump_state",
+          "voting_module",
+          "proposal_modules",
+          "config"
+        ]
+      },
+      "treasury_wallet": {
+        "address": "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm",
+        "note": "aDAO main treasury wallet (not the core contract)"
+      },
+      "voting_module": {
+        "address": "terra1c57ur376szdv8rtes6sa9nst4k536dynunksu8tx5zu4z5u3am6qmvqx47",
+        "kind": "dao-voting-cw721-staked",
+        "queries": [
+          "daoVotingCw721Staked/topStakers (indexer)"
+        ]
+      },
+      "proposal_module": {
+        "address": "terra1va3tny5252fca04wqzf7gqh5naa8599nzxqq2vptycgv077zhmjqetanj2",
+        "queries": [
+          "list_proposals",
+          "reverse_proposals",
+          "proposal",
+          "list_votes",
+          "config"
+        ]
+      },
+      "pd_proposal_module": {
+        "address": "terra1660g9mle5kfsq8c0p4k4hgr9ujdyr3m48c22cawy0akr98rmwksqehqnup",
+        "note": "Phoenix Directive gauge/bribe proposals",
+        "queries": [
+          "list_proposals",
+          "proposal"
+        ]
+      }
+    },
+    "dao_cores": {
+      "adao": "terra1csp8gsjk2yyxzqewza6lkjvwkspn7zs2jvamk9uf05crtcakf6gszk2g8y",
+      "pixellions": "terra1c690mdrwdetnr09zfk3tf9xz9jhrgd9wpjyf3tuccj74ql09eqmq6sh7en",
+      "liondao": "terra1tkersa2mqwy2h8exj799qx2xrhdu0dkymk9psp6v0k4kz4tkxucssgluec"
+    }
+  },
+  "wallets": {
+    "terra1sffd4efk2jpdt894r04qwmtjqrrjfc52tmj6vkzjxqhd8qqu2drs3m5vzm": "aDAO Treasury (main)",
+    "terra1yqv0af22675wlcmgflxk4ve07vt8qlm999gk0cuw5l64r5xxgadsyg8ywv": "aDAO Council",
+    "terra1h8psjgcsg9fef7w2yv0j6262sfcaszj8vs4tsy3uwla6zwtaspvqrp4l7v": "DAO Treasury NFT custody (broken NFTs)",
+    "terra1e54tcdyulrtslvf79htx4zntqntd4r550cg22sj24r6gfm0anrvq0y8tdv": "NFT custody (broken NFTs)"
+  },
+  "dao_locks": [
+    600,
+    711
+  ],
+  "future": {
+    "credia": {
+      "type": "lending",
+      "status": "future",
+      "note": "Money-market (supply/borrow/collateral). wBTC.creda = wBTC supplied as collateral. Queried via RPC.",
+      "metrics_contract": "terra1y6hfmr3lxxj6srduhlfz96x7sga2984pr757a0nrfuqxa9rqxapqcjv4zz",
+      "queries": [
+        "metrics"
+      ],
+      "metrics_returns": [
+        "total_supplied_usd",
+        "total_borrowed_usd",
+        "total_collateral_usd",
+        "total_reserves_usd",
+        "assets[]"
+      ]
+    }
+  }
+}
