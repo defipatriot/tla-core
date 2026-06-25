@@ -2,173 +2,855 @@
   "meta": {
     "version": "prices-1.0.0",
     "schemaVersion": 1,
-    "generated_at": "2026-06-25T16:15:08.519Z",
+    "generated_at": "2026-06-25T16:18:10.179Z",
     "epoch": 191,
-    "source": "network-and-prices (consolidated)",
-    "token_count": 27
+    "source": "network-and-prices + tla-snapshot reserves",
+    "token_count": 27,
+    "lp_entries": 102,
+    "total_price_entries": 126
   },
   "prices": {
     "LUNA": {
       "price_usd": 0.04734646,
+      "type": "token",
       "source": "astroport",
       "change_24h_pct": -4.368997241541179,
       "change_7d_pct": -10.789930849961378
     },
     "USDC": {
       "price_usd": 0.999686,
+      "type": "token",
       "source": "astroport",
       "change_24h_pct": -0.011802313253403918,
       "change_7d_pct": -0.01080222525840293
     },
     "USDT": {
       "price_usd": 0.998523,
+      "type": "token",
       "source": "astroport",
       "change_24h_pct": -0.031036219267877762,
       "change_7d_pct": -0.06295338447002966
     },
     "WBTC": {
       "price_usd": 59190,
+      "type": "token",
       "source": "astroport",
       "change_24h_pct": -5.462386200287494,
       "change_7d_pct": -8.028652671815031
     },
     "PAXG": {
       "price_usd": 4019.92,
+      "type": "token",
       "source": "astroport",
       "change_24h_pct": -1.749240496738345,
       "change_7d_pct": -5.776794378372298
     },
     "EURE": {
       "price_usd": 1.14,
+      "type": "token",
       "source": "astroport",
       "change_24h_pct": 0,
       "change_7d_pct": -0.8695652173913052
     },
     "INJ": {
       "price_usd": 4.175881050895976,
+      "type": "token",
       "source": "coingecko",
       "change_24h_pct": null,
       "change_7d_pct": null
     },
     "ATOM": {
       "price_usd": 1.61,
+      "type": "token",
       "source": "astroport",
       "change_24h_pct": -6.395348837209296,
       "change_7d_pct": -15.263157894736834
     },
     "ETH": {
       "price_usd": 1558.95,
+      "type": "token",
       "source": "astroport",
       "change_24h_pct": -6.394106062061677,
       "change_7d_pct": -10.805012015104698
     },
     "WETH": {
       "price_usd": 1559.0529547713752,
+      "type": "token",
       "source": "coingecko",
       "change_24h_pct": null,
       "change_7d_pct": null
     },
     "WSTETH": {
       "price_usd": 1926.42,
+      "type": "token",
       "source": "astroport",
       "change_24h_pct": -6.691466019558556,
       "change_7d_pct": -10.925232348453312
     },
     "BNB": {
       "price_usd": 551.95,
+      "type": "token",
       "source": "astroport",
       "change_24h_pct": -4.445752471305152,
       "change_7d_pct": -8.14152811756286
     },
     "WBNB": {
       "price_usd": 552.5155066305002,
+      "type": "token",
       "source": "coingecko",
       "change_24h_pct": null,
       "change_7d_pct": null
     },
     "OSMO": {
       "price_usd": 0.03862514476626583,
+      "type": "token",
       "source": "coingecko",
       "change_24h_pct": null,
       "change_7d_pct": null
     },
     "STLUNA": {
       "price_usd": 0.08582272939820788,
+      "type": "token",
       "source": "coingecko",
       "change_24h_pct": null,
       "change_7d_pct": null
     },
     "STATOM": {
       "price_usd": 3.1119710828965492,
+      "type": "token",
       "source": "coingecko",
       "change_24h_pct": null,
       "change_7d_pct": null
     },
     "SOLID": {
       "price_usd": 0.9992980635202402,
+      "type": "token",
       "source": "astroport",
       "change_24h_pct": 0.3482011084079595,
       "change_7d_pct": 0.07897168560045154
     },
     "SWTH": {
       "price_usd": 0.000433724024508622,
+      "type": "token",
       "source": "coingecko",
       "change_24h_pct": null,
       "change_7d_pct": null
     },
     "ROAR": {
       "price_usd": 1.94374877444e-7,
+      "type": "token",
       "source": "astroport",
       "change_24h_pct": -3.4124217615408363,
       "change_7d_pct": -12.423897067216474
     },
     "CAPA": {
       "price_usd": 0.001084194101618978,
+      "type": "token",
       "source": "astroport",
       "change_24h_pct": -2.5782245182804995,
       "change_7d_pct": -7.483448326557636
     },
     "ASTRO": {
       "price_usd": 0.000492502418964419,
+      "type": "token",
       "source": "coingecko (astroport flagged stale)",
       "change_24h_pct": -8.806626319525286,
       "change_7d_pct": -23.844095230063626
     },
     "xASTRO": {
       "price_usd": 0.000449149301536829,
+      "type": "token",
       "source": "astroport-direct",
       "change_24h_pct": null,
       "change_7d_pct": null
     },
     "ampLUNA": {
       "price_usd": 0.1033571211883897,
+      "type": "token",
       "source": "calculated-eris",
       "change_24h_pct": null,
       "change_7d_pct": null
     },
     "arbLUNA": {
       "price_usd": 0.14022857707178005,
+      "type": "token",
       "source": "calculated-eris",
       "change_24h_pct": null,
       "change_7d_pct": null
     },
     "bLUNA": {
       "price_usd": 0.0837974841746324,
+      "type": "token",
       "source": "calculated-eris",
       "change_24h_pct": null,
       "change_7d_pct": null
     },
     "ampCAPA": {
       "price_usd": 0.00119861749960337,
+      "type": "token",
       "source": "calculated-eris",
       "change_24h_pct": null,
       "change_7d_pct": null
     },
     "ampROAR": {
       "price_usd": 2.2829745977346117e-7,
+      "type": "token",
       "source": "calculated-eris",
       "change_24h_pct": null,
       "change_7d_pct": null
+    },
+    "terra14h48hukanmfv6wrrs50m4w2f9hf09lakwl5d5pkpt4rpl3gtg7ks4ye6d4": {
+      "price_usd": 0.4533308938786024,
+      "type": "lp",
+      "source": "lp_reserve",
+      "pool": "LUNA-USDT"
+    },
+    "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/2/stable/amplp": {
+      "price_usd": 0.3776353166906972,
+      "type": "amplp",
+      "source": "amplp_derived",
+      "pool": "LUNA-USDT",
+      "ratio": 0.8330235635602286
+    },
+    "terra1s275y73lfupag0g03nglxaedfnsw5z4m5zc9wk66guy503zuw5ss889tlx": {
+      "price_usd": 0.4704718743069811,
+      "type": "lp",
+      "source": "lp_reserve",
+      "pool": "LUNA-USDC"
+    },
+    "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/0/stable/amplp": {
+      "price_usd": 0.39247255956661137,
+      "type": "amplp",
+      "source": "amplp_derived",
+      "pool": "LUNA-USDC",
+      "ratio": 0.8342104618787998
+    },
+    "terra1xkt5etsaptddec6achnjlqnx884fwxwuk795fs885v6eyygu6eus7uauhc": {
+      "price_usd": 0.4749269062464666,
+      "type": "lp",
+      "source": "lp_reserve",
+      "pool": "LUNA-EURe"
+    },
+    "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/48/stable/amplp": {
+      "price_usd": 0.4124414252275463,
+      "type": "amplp",
+      "source": "amplp_derived",
+      "pool": "LUNA-EURe",
+      "ratio": 0.8684313729184823
+    },
+    "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/1/stable/amplp": {
+      "price_usd": 0.425253283430576,
+      "type": "amplp",
+      "source": "amplp_derived",
+      "pool": "LUNA-USDC",
+      "ratio": 0.8330044342354259
+    },
+    "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/50/stable/amplp": {
+      "price_usd": 0.42657844175552423,
+      "type": "amplp",
+      "source": "amplp_derived",
+      "pool": "LUNA-EURe",
+      "ratio": 0.8701315311651506
+    },
+    "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/5/stable/amplp": {
+      "price_usd": 0.4049193916127918,
+      "type": "amplp",
+      "source": "amplp_derived",
+      "pool": "LUNA-USDt",
+      "ratio": 0.8336874374148846
+    },
+    "terra10un5hr6asmn7g0ggh9sz0x3v8f9evh5cvawk8xs65rghundc25mq7g5par": {
+      "price_usd": 0.17171715587582942,
+      "type": "lp",
+      "source": "lp_reserve",
+      "pool": "ampLUNA-LUNA"
+    },
+    "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/41/project/amplp": {
+      "price_usd": 0.14630154711812599,
+      "type": "amplp",
+      "source": "amplp_derived",
+      "pool": "ampLUNA-LUNA",
+      "ratio": 0.8519914412274465
+    },
+    "terra12usr3jlgvuzq70kpt6u03stxrgzwpjxnej6herpuw9t7echj8z3q44dyyk": {
+      "price_usd": 2.27796067144661,
+      "type": "lp",
+      "source": "lp_reserve",
+      "pool": "USDC-SOLID"
+    },
+    "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/24/project/amplp": {
+      "price_usd": 1.8978617476872608,
+      "type": "amplp",
+      "source": "amplp_derived",
+      "pool": "USDC-SOLID",
+      "ratio": 0.8331406996952371
+    },
+    "terra14arerdfc88cdv6m6frc03a0963z877756kqac4h4xvd9vftn0hqqhquca8": {
+      "price_usd": 0.5445117010809822,
+      "type": "lp",
+      "source": "lp_reserve",
+      "pool": "LUNA-SOLID"
+    },
+    "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/13/project/amplp": {
+      "price_usd": 0.4551061691616047,
+      "type": "amplp",
+      "source": "amplp_derived",
+      "pool": "LUNA-SOLID",
+      "ratio": 0.8358060410053874
+    },
+    "terra14lul8rjcad0jeuu680n4q7dwgxjkr6mqzx8umyewj8c6xn93squqllleht": {
+      "price_usd": 0.009900218855471245,
+      "type": "lp",
+      "source": "lp_reserve",
+      "pool": "LUNA-ASTRO"
+    },
+    "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/4/project/amplp": {
+      "price_usd": 0.008249117961649306,
+      "type": "amplp",
+      "source": "amplp_derived",
+      "pool": "LUNA-ASTRO",
+      "ratio": 0.833225818749504
+    },
+    "terra14n22zd24nath0tf8fwn468nz7753rjuks67ppddrcqwq37x2xsxsddqxqc": {
+      "price_usd": 0.11112957108092827,
+      "type": "lp",
+      "source": "lp_reserve",
+      "pool": "LUNA-stLUNA"
+    },
+    "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/39/project/amplp": {
+      "price_usd": 0.09450043698563716,
+      "type": "amplp",
+      "source": "amplp_derived",
+      "pool": "LUNA-stLUNA",
+      "ratio": 0.850362653850421
+    },
+    "terra1cg9t08mqa88us074mpwpuu8lp5w4jwtye3vaazll45w27at52cpsq7c564": {
+      "price_usd": 0.01470046713717893,
+      "type": "lp",
+      "source": "lp_reserve",
+      "pool": "LUNA-CAPA"
+    },
+    "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/42/project/amplp": {
+      "price_usd": 0.012548326403986941,
+      "type": "amplp",
+      "source": "amplp_derived",
+      "pool": "LUNA-CAPA",
+      "ratio": 0.8536005207787573
+    },
+    "terra1e6k3u9uwysataqnysfdn7y5v254pawm0gcuflumugtd7l4w74slq0qww44": {
+      "price_usd": 0.02229082762245631,
+      "type": "lp",
+      "source": "lp_reserve",
+      "pool": "LUNA-FUEL"
+    },
+    "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/59/project/amplp": {
+      "price_usd": 0.020740322941247454,
+      "type": "amplp",
+      "source": "amplp_derived",
+      "pool": "LUNA-FUEL",
+      "ratio": 0.9304420316970715
+    },
+    "terra1h3z2zv6aw94fx5263dy6tgz6699kxmewlx3vrcu4jjrudg6xmtyqk6vt0u": {
+      "price_usd": 0.11150314344966447,
+      "type": "lp",
+      "source": "lp_reserve",
+      "pool": "LUNA-bLUNA"
+    },
+    "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/58/project/amplp": {
+      "price_usd": 0.10336426599531814,
+      "type": "amplp",
+      "source": "amplp_derived",
+      "pool": "LUNA-bLUNA",
+      "ratio": 0.9270076411969459
+    },
+    "terra1my4tml2ae4zewq0u5fpq2qzq4rdpfh5pq7y3eekxxhwxdwdmce4shw9mt4": {
+      "price_usd": 0.1380911671698302,
+      "type": "lp",
+      "source": "lp_reserve",
+      "pool": "LUNA-ampLUNA"
+    },
+    "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/32/project/amplp": {
+      "price_usd": 0.11506355263697843,
+      "type": "amplp",
+      "source": "amplp_derived",
+      "pool": "LUNA-ampLUNA",
+      "ratio": 0.8332433927180045
+    },
+    "terra1q475uvk9te5nxq2lzu0h96t0devmx4v8ctxqtm253ut05wrpugsq0m4e3k": {
+      "price_usd": 0.14175189556034606,
+      "type": "lp",
+      "source": "lp_reserve",
+      "pool": "bLUNA-LUNA"
+    },
+    "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/16/project/amplp": {
+      "price_usd": 0.11811381600466409,
+      "type": "amplp",
+      "source": "amplp_derived",
+      "pool": "bLUNA-LUNA",
+      "ratio": 0.8332432912996295
+    },
+    "terra1stavsz7hhsw56tngxt6p5xmkm86a9nvgztgvv56wj7q6yceutmwsvrwjdz": {
+      "price_usd": 0.004361150227761679,
+      "type": "lp",
+      "source": "lp_reserve",
+      "pool": "LUNA-WHALE"
+    },
+    "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/37/project/amplp": {
+      "price_usd": 0.003744628976979339,
+      "type": "amplp",
+      "source": "amplp_derived",
+      "pool": "LUNA-WHALE",
+      "ratio": 0.8586333378617036
+    },
+    "terra1vczn40ch624g2kserhzqu2n69j3h7h7c5nfeznw96pnxjuly5h5s25u9dm": {
+      "price_usd": 0.00019937832140448026,
+      "type": "lp",
+      "source": "lp_reserve",
+      "pool": "LUNA-ROAR"
+    },
+    "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/12/project/amplp": {
+      "price_usd": 0.00016612558249418354,
+      "type": "amplp",
+      "source": "amplp_derived",
+      "pool": "LUNA-ROAR",
+      "ratio": 0.8332178810812805
+    },
+    "terra1wwy8xjk4mff7qp2g7qzmgfu9agd6wjdmz99crj94zv9tmh7dvhmq0jsf6a": {
+      "price_usd": 0.005523564736299844,
+      "type": "lp",
+      "source": "lp_reserve",
+      "pool": "LUNA-SWTH"
+    },
+    "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/33/project/amplp": {
+      "price_usd": 0.004676127374182119,
+      "type": "amplp",
+      "source": "amplp_derived",
+      "pool": "LUNA-SWTH",
+      "ratio": 0.8465778165776671
+    },
+    "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/10/project/amplp": {
+      "price_usd": 0.00019637811353501094,
+      "type": "amplp",
+      "source": "amplp_derived",
+      "pool": "LUNA-ROAR",
+      "ratio": 0.9711116314757317
+    },
+    "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/43/project/amplp": {
+      "price_usd": 0.012648338485901712,
+      "type": "amplp",
+      "source": "amplp_derived",
+      "pool": "CAPA-LUNA",
+      "ratio": 0.8536001799841637
+    },
+    "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/14/project/amplp": {
+      "price_usd": 0.3991373277163588,
+      "type": "amplp",
+      "source": "amplp_derived",
+      "pool": "LUNA-SOLID",
+      "ratio": 0.874946628567675
+    },
+    "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/9/project/amplp": {
+      "price_usd": 1.989660668227871,
+      "type": "amplp",
+      "source": "amplp_derived",
+      "pool": "USDC-SOLID",
+      "ratio": 0.9721059972105998
+    },
+    "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/23/project/amplp": {
+      "price_usd": 0.169467143367518,
+      "type": "amplp",
+      "source": "amplp_derived",
+      "pool": "native:factory/terra1zushwxgqdkg22mtv9p946yp53r6de",
+      "ratio": 0.829829698749441
+    },
+    "terra10ca0xhyjrzl3zk9g26yjxlw5rjplu5ts4jgcvvrgr62ml8jf57hqs3nck5": {
+      "price_usd": 10.306981157980132,
+      "type": "lp",
+      "source": "lp_reserve",
+      "pool": "LUNA-wBNB.axl"
+    },
+    "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/55/bluechip/amplp": {
+      "price_usd": 9.417051113455946,
+      "type": "amplp",
+      "source": "amplp_derived",
+      "pool": "LUNA-wBNB.axl",
+      "ratio": 0.9136575461928381
+    },
+    "terra12eu8jk4w7lgn2rk7xs46nz7c7r9fw8q98afy9adlwtkghazj40asjf65zu": {
+      "price_usd": 19.24391335736655,
+      "type": "lp",
+      "source": "lp_reserve",
+      "pool": "LUNA-wBNB.wh"
+    },
+    "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/38/bluechip/amplp": {
+      "price_usd": 16.389931660850053,
+      "type": "amplp",
+      "source": "amplp_derived",
+      "pool": "LUNA-wBNB.wh",
+      "ratio": 0.8516943179114866
+    },
+    "terra17thxg96vtxv39kcltc0dvrltqgkumu8fv93rpz3xz98675cgxdjq3y4ddn": {
+      "price_usd": 2.1680685685367225,
+      "type": "lp",
+      "source": "lp_reserve",
+      "pool": "USDC-EURe"
+    },
+    "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/46/bluechip/amplp": {
+      "price_usd": 1.8829462770081897,
+      "type": "amplp",
+      "source": "amplp_derived",
+      "pool": "USDC-EURe",
+      "ratio": 0.868490187226427
+    },
+    "terra19d8tttv0lvhwpj828qqrcmm6yaqdfhrchfheuufcw4kywtmk9u3q98ask3": {
+      "price_usd": 54.82613073768378,
+      "type": "lp",
+      "source": "lp_reserve",
+      "pool": "LUNA-wstETH"
+    },
+    "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/53/bluechip/amplp": {
+      "price_usd": 51.60523551463265,
+      "type": "amplp",
+      "source": "amplp_derived",
+      "pool": "LUNA-wstETH",
+      "ratio": 0.9412525527569775
+    },
+    "terra19xrvvkq5607xudcxvw444yycjz6e3vk3l8p633z68k0vv5q09wnsa9q2qt": {
+      "price_usd": 0.6339696604857851,
+      "type": "lp",
+      "source": "lp_reserve",
+      "pool": "LUNA-ATOM"
+    },
+    "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/11/bluechip/amplp": {
+      "price_usd": 0.5288784620285959,
+      "type": "amplp",
+      "source": "amplp_derived",
+      "pool": "LUNA-ATOM",
+      "ratio": 0.834233079266503
+    },
+    "terra1a5apghncafx0nem740fsrmd6demaywvp332a4uat63u2jtwn8mgsz7khkw": {
+      "price_usd": 114.17808009424958,
+      "type": "lp",
+      "source": "lp_reserve",
+      "pool": "LUNA-WBTC.axl"
+    },
+    "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/18/bluechip/amplp": {
+      "price_usd": 95.17142747508852,
+      "type": "amplp",
+      "source": "amplp_derived",
+      "pool": "LUNA-WBTC.axl",
+      "ratio": 0.8335350129948602
+    },
+    "terra1adp223mw8937arxcfl36acjjyn2dcf7wzp8h09jek5k0gw3vch8sqlq6su": {
+      "price_usd": 0.8328097830710222,
+      "type": "lp",
+      "source": "lp_reserve",
+      "pool": "ATOM-LUNA"
+    },
+    "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/6/bluechip/amplp": {
+      "price_usd": 0.6941063749444822,
+      "type": "amplp",
+      "source": "amplp_derived",
+      "pool": "ATOM-LUNA",
+      "ratio": 0.8334512742933144
+    },
+    "terra1euf8klqukk4wlly90nve0n6drqvq9pst73wc34pruuvx09nptxyse68hgl": {
+      "price_usd": 9.406528205035468e-7,
+      "type": "lp",
+      "source": "lp_reserve",
+      "pool": "LUNA-INJ"
+    },
+    "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/36/bluechip/amplp": {
+      "price_usd": 7.99892549999122e-7,
+      "type": "amplp",
+      "source": "amplp_derived",
+      "pool": "LUNA-INJ",
+      "ratio": 0.8503589555718617
+    },
+    "terra1huw82c9grj9xz9umkc8hqcjqgndadlkrp8rn9u6eh5jh5j2s2t7qs33vry": {
+      "price_usd": 2.005266336255746,
+      "type": "lp",
+      "source": "lp_reserve",
+      "pool": "USDC-USDT"
+    },
+    "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/8/bluechip/amplp": {
+      "price_usd": 1.7786805706235358,
+      "type": "amplp",
+      "source": "amplp_derived",
+      "pool": "USDC-USDT",
+      "ratio": 0.8870046529303964
+    },
+    "terra1sxmrwp48wt3h4whatla7xwl9g6t5y95u589az2cdu0myuzjpkkrs4ztprc": {
+      "price_usd": 27.84460751786,
+      "type": "lp",
+      "source": "lp_reserve",
+      "pool": "LUNA-PAXG"
+    },
+    "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/60/bluechip/amplp": {
+      "price_usd": 26.161713534217004,
+      "type": "amplp",
+      "source": "amplp_derived",
+      "pool": "LUNA-PAXG",
+      "ratio": 0.9395612244646092
+    },
+    "terra1tfr4ghftlsf2l9nxr3clewk52g5q8wj7m2rglw67dkql9x6u7w6q53gwrn": {
+      "price_usd": 107.67921675926958,
+      "type": "lp",
+      "source": "lp_reserve",
+      "pool": "LUNA-WBTC"
+    },
+    "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/54/bluechip/amplp": {
+      "price_usd": 107.67921675926958,
+      "type": "amplp",
+      "source": "amplp_derived",
+      "pool": "LUNA-WBTC",
+      "ratio": 1
+    },
+    "terra1vc66wpr2ghcesnf203em6yefpze3vrmq99n8yz0me3jzs6g4e8rs2kec75": {
+      "price_usd": 2.036617884633498,
+      "type": "lp",
+      "source": "lp_reserve",
+      "pool": "LUNA-wSOL.wh"
+    },
+    "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/35/bluechip/amplp": {
+      "price_usd": 1.7016434183309868,
+      "type": "amplp",
+      "source": "amplp_derived",
+      "pool": "LUNA-wSOL.wh",
+      "ratio": 0.8355241457762255
+    },
+    "terra1wdzdltygkgqyuvggnqnxsny9vhfyex92kzaz6zkued2wvp7nvxpsv739js": {
+      "price_usd": 107.87689297119567,
+      "type": "lp",
+      "source": "lp_reserve",
+      "pool": "LUNA-WBTC"
+    },
+    "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/56/bluechip/amplp": {
+      "price_usd": 98.66894329445398,
+      "type": "amplp",
+      "source": "amplp_derived",
+      "pool": "LUNA-WBTC",
+      "ratio": 0.9146439110069632
+    },
+    "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/15/bluechip/amplp": {
+      "price_usd": 0.000016788336019497247,
+      "type": "amplp",
+      "source": "amplp_derived",
+      "pool": "LUNA-wstETH",
+      "ratio": 0.8335833282388663
+    },
+    "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/28/bluechip/amplp": {
+      "price_usd": 0.17062073314665335,
+      "type": "amplp",
+      "source": "amplp_derived",
+      "pool": "LUNA-wSOL",
+      "ratio": 0.8300406496310293
+    },
+    "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/45/bluechip/amplp": {
+      "price_usd": 0.9482491000705009,
+      "type": "amplp",
+      "source": "amplp_derived",
+      "pool": "USDC-USDt",
+      "ratio": 0.9467892387265112
+    },
+    "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/7/bluechip/amplp": {
+      "price_usd": 1.696237464354283,
+      "type": "amplp",
+      "source": "amplp_derived",
+      "pool": "native:factory/terra17vas9rhxhc6j6f5wrup9cqapxn74j",
+      "ratio": 0.8450677312235001
+    },
+    "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/3/bluechip/amplp": {
+      "price_usd": 9.798290074276181,
+      "type": "amplp",
+      "source": "amplp_derived",
+      "pool": "wBTC.osmo-LUNA",
+      "ratio": 0.833179084963081
+    },
+    "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/17/bluechip/amplp": {
+      "price_usd": 7.783215141821093e-7,
+      "type": "amplp",
+      "source": "amplp_derived",
+      "pool": "LUNA-INJ",
+      "ratio": 0.8332015761747654
+    },
+    "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/51/bluechip/amplp": {
+      "price_usd": 1.8783271019033458,
+      "type": "amplp",
+      "source": "amplp_derived",
+      "pool": "USDC-EURe",
+      "ratio": 0.8701595284191205
+    },
+    "terra10e2rz5etaped4nh0vk502hf7uwtz5lqvxqatxl4qyr0chcynxf2swhfwww": {
+      "price_usd": 1196.6989478557718,
+      "type": "lp",
+      "source": "lp_reserve",
+      "pool": "WBTC.axl-WBTC.osmo"
+    },
+    "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/47/single/amplp": {
+      "price_usd": 1039.3663355125836,
+      "type": "amplp",
+      "source": "amplp_derived",
+      "pool": "WBTC.axl-WBTC.osmo",
+      "ratio": 0.868527825962332
+    },
+    "terra12mvtdvn4fgtsqs4fwxr56vcwjw0xe23lhdfyjq5ghk7vmfeuxn0srau9q2": {
+      "price_usd": 5.172725664787299,
+      "type": "lp",
+      "source": "lp_reserve",
+      "pool": "ATOM-dATOM"
+    },
+    "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/34/single/amplp": {
+      "price_usd": 4.393252388173462,
+      "type": "amplp",
+      "source": "amplp_derived",
+      "pool": "ATOM-dATOM",
+      "ratio": 0.8493109190150936
+    },
+    "terra16z3ksy6aqjkug8l3u48q0kvdaqk3dgaytl7ykt6vg2he9d6z9rgslr4k7l": {
+      "price_usd": 0.000089134491093578,
+      "type": "lp",
+      "source": "lp_reserve",
+      "pool": "cw20:terra16z3ksy6aqjkug8l3u48q0kvdaqk3dgaytl7ykt6"
+    },
+    "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/21/single/amplp": {
+      "price_usd": 0.00007509320244630878,
+      "type": "amplp",
+      "source": "amplp_derived",
+      "pool": "cw20:terra16z3ksy6aqjkug8l3u48q0kvdaqk3dgaytl7ykt6",
+      "ratio": 0.8424707599157328
+    },
+    "terra18336lhc2vt9s9tw4pqetvdwywg9555rduzv527r9q47smw89epcsxgxuny": {
+      "price_usd": 3.5561303660070937e-9,
+      "type": "lp",
+      "source": "lp_reserve",
+      "pool": "wstETH-WETH.axl"
+    },
+    "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/49/single/amplp": {
+      "price_usd": 3.0881350498361514e-9,
+      "type": "amplp",
+      "source": "amplp_derived",
+      "pool": "wstETH-WETH.axl",
+      "ratio": 0.8683975928879069
+    },
+    "terra19z7g4fnu529250sdkdmgm9kw4qgwmmqrjas9t24ll84mpd94lxnshf0z2h": {
+      "price_usd": 0.12245221416078009,
+      "type": "lp",
+      "source": "lp_reserve",
+      "pool": "LUNA-arbLUNA"
+    },
+    "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/20/single/amplp": {
+      "price_usd": 0.1034250506633164,
+      "type": "amplp",
+      "source": "amplp_derived",
+      "pool": "LUNA-arbLUNA",
+      "ratio": 0.8446156026833377
+    },
+    "terra1h840qkh5pqmrvnt6d3m97slcl3q8k6czv67rrmnydp96xwda2afsghwnjr": {
+      "price_usd": 31016.927144353413,
+      "type": "lp",
+      "source": "lp_reserve",
+      "pool": "PAXG-WBTC"
+    },
+    "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/64/single/amplp": {
+      "price_usd": 30465.90759030686,
+      "type": "amplp",
+      "source": "amplp_derived",
+      "pool": "PAXG-WBTC",
+      "ratio": 0.9822348760893658
+    },
+    "terra1hqq6pnx74q0wae7eqqu2wgddzr2xn8l9gvd33sfwqfew50qawj0sfn69fh": {
+      "price_usd": 5.900743511707393e-7,
+      "type": "lp",
+      "source": "lp_reserve",
+      "pool": "cw20:terra1hqq6pnx74q0wae7eqqu2wgddzr2xn8l9gvd33sf"
+    },
+    "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/61/single/amplp": {
+      "price_usd": 5.579288803348204e-7,
+      "type": "amplp",
+      "source": "amplp_derived",
+      "pool": "cw20:terra1hqq6pnx74q0wae7eqqu2wgddzr2xn8l9gvd33sf",
+      "ratio": 0.9455230162569505
+    },
+    "terra1le46uu9qjk53aktjs8dev96sl9sd2ujvcpspk75pdeg0txfvhyuswm6653": {
+      "price_usd": 0.00008283697271020967,
+      "type": "lp",
+      "source": "lp_reserve",
+      "pool": "cw20:terra1le46uu9qjk53aktjs8dev96sl9sd2ujvcpspk75"
+    },
+    "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/30/single/amplp": {
+      "price_usd": 0.00006979259674199262,
+      "type": "amplp",
+      "source": "amplp_derived",
+      "pool": "cw20:terra1le46uu9qjk53aktjs8dev96sl9sd2ujvcpspk75",
+      "ratio": 0.842529542770105
+    },
+    "terra1mnucaeckccseq66kglv299wasp02akyh535jcpcdu37tdakr92esf9mjm5": {
+      "price_usd": 0.000008350214157360675,
+      "type": "lp",
+      "source": "lp_reserve",
+      "pool": "SWTH-rSWTH"
+    },
+    "terra1phz6qdzszgwj303rp5cfpfgcgfq0wwg0na2he980t58mryz69hyqsjkfc0": {
+      "price_usd": 0.1607777595784517,
+      "type": "lp",
+      "source": "lp_reserve",
+      "pool": "LUNA-arbLUNA"
+    },
+    "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/57/single/amplp": {
+      "price_usd": 0.14818040508514158,
+      "type": "amplp",
+      "source": "amplp_derived",
+      "pool": "LUNA-arbLUNA",
+      "ratio": 0.9216474061689904
+    },
+    "terra1pz99udaf85erk8lumjylczz0cuf70mmq9gns3ejxt7s3mk266mqq6gkqkn": {
+      "price_usd": 4.262526900985385,
+      "type": "lp",
+      "source": "lp_reserve",
+      "pool": "ATOM-stATOM"
+    },
+    "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/40/single/amplp": {
+      "price_usd": 3.872869419247757,
+      "type": "amplp",
+      "source": "amplp_derived",
+      "pool": "ATOM-stATOM",
+      "ratio": 0.9085853319429962
+    },
+    "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/26/single/amplp": {
+      "price_usd": 0.00035238647666554124,
+      "type": "amplp",
+      "source": "amplp_derived",
+      "pool": "wETH-wstETH",
+      "ratio": 1
+    },
+    "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/25/single/amplp": {
+      "price_usd": 1107.4670623447557,
+      "type": "amplp",
+      "source": "amplp_derived",
+      "pool": "wBTC.osmo-wBTC.axl",
+      "ratio": 0.8455503640117353
+    },
+    "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/27/single/amplp": {
+      "price_usd": 4.8337444342659195,
+      "type": "amplp",
+      "source": "amplp_derived",
+      "pool": "ATOM-dATOM",
+      "ratio": 0.8449644506231806
+    },
+    "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/22/single/amplp": {
+      "price_usd": 3.6714448661653e-7,
+      "type": "amplp",
+      "source": "amplp_derived",
+      "pool": "ampROAR-ROAR",
+      "ratio": 0.8452309729355103
+    },
+    "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/29/single/amplp": {
+      "price_usd": 0.1401624667510835,
+      "type": "amplp",
+      "source": "amplp_derived",
+      "pool": "LUNA-arbLUNA",
+      "ratio": 0.8454838912156581
     }
   },
   "ratios": {
