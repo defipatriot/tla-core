@@ -2,46 +2,46 @@
   "meta": {
     "version": "prices-1.0.0",
     "schemaVersion": 1,
-    "generated_at": "2026-06-26T10:30:20.562Z",
+    "generated_at": "2026-06-26T10:45:11.903Z",
     "epoch": 191,
     "source": "network-and-prices (consolidated)",
     "token_count": 27
   },
   "prices": {
     "LUNA": {
-      "price_usd": 0.04849836,
+      "price_usd": 0.04823241,
       "type": "token",
       "source": "astroport",
-      "change_24h_pct": 0.6092980656430358,
-      "change_7d_pct": -6.348511180627972
+      "change_24h_pct": 0.05758780532583821,
+      "change_7d_pct": -6.862066967906374
     },
     "USDC": {
-      "price_usd": 0.999678,
+      "price_usd": 0.999691,
       "type": "token",
       "source": "astroport",
-      "change_24h_pct": -0.010302256194114037,
-      "change_7d_pct": -0.03220000000000445
+      "change_24h_pct": -0.009001971431747002,
+      "change_7d_pct": -0.03090000000000037
     },
     "USDT": {
-      "price_usd": 0.998505,
+      "price_usd": 0.99851,
       "type": "token",
       "source": "astroport",
-      "change_24h_pct": 0,
-      "change_7d_pct": 0.04779425026151067
+      "change_24h_pct": 0.0005007486191889631,
+      "change_7d_pct": 0.04829523820974786
     },
     "WBTC": {
-      "price_usd": 59997,
+      "price_usd": 59621,
       "type": "token",
       "source": "astroport",
-      "change_24h_pct": -1.3985669208519589,
-      "change_7d_pct": -4.408578165827545
+      "change_24h_pct": -2.016500131475151,
+      "change_7d_pct": -5.00764769613154
     },
     "PAXG": {
-      "price_usd": 4039.67,
+      "price_usd": 4040.41,
       "type": "token",
       "source": "astroport",
-      "change_24h_pct": 0.8248848156301367,
-      "change_7d_pct": -3.3895346056344664
+      "change_24h_pct": 0.8433542487183702,
+      "change_7d_pct": -3.3718371837183665
     },
     "EURE": {
       "price_usd": 1.14,
@@ -51,56 +51,56 @@
       "change_7d_pct": -0.8695652173913052
     },
     "INJ": {
-      "price_usd": 4.50278448448435,
+      "price_usd": 4.5201369202988735,
       "type": "token",
       "source": "coingecko",
       "change_24h_pct": null,
       "change_7d_pct": null
     },
     "ATOM": {
-      "price_usd": 1.61,
+      "price_usd": 1.6,
       "type": "token",
       "source": "astroport",
-      "change_24h_pct": -2.424242424242413,
-      "change_7d_pct": -11.049723756906074
+      "change_24h_pct": -3.0303030303030196,
+      "change_7d_pct": -11.60220994475138
     },
     "ETH": {
-      "price_usd": 1559.52,
+      "price_usd": 1551.7,
       "type": "token",
       "source": "astroport",
-      "change_24h_pct": -3.7202583066836237,
-      "change_7d_pct": -8.787731683208854
+      "change_24h_pct": -4.203039919001342,
+      "change_7d_pct": -9.245103142527938
     },
     "WETH": {
-      "price_usd": 1561.3874363425014,
+      "price_usd": 1546.402410951711,
       "type": "token",
       "source": "coingecko",
       "change_24h_pct": null,
       "change_7d_pct": null
     },
     "WSTETH": {
-      "price_usd": 1930.54,
+      "price_usd": 1920.47,
       "type": "token",
       "source": "astroport",
-      "change_24h_pct": -3.682490582982011,
-      "change_7d_pct": -8.772410664499233
+      "change_24h_pct": -4.184897847182373,
+      "change_7d_pct": -9.24826810573769
     },
     "BNB": {
-      "price_usd": 566.19,
+      "price_usd": 565.46,
       "type": "token",
       "source": "astroport",
-      "change_24h_pct": 0.413223140495875,
-      "change_7d_pct": -2.055114432508173
+      "change_24h_pct": 0.28375837973965573,
+      "change_7d_pct": -2.1813967166606143
     },
     "WBNB": {
-      "price_usd": 566.1057133092567,
+      "price_usd": 564.8482183109883,
       "type": "token",
       "source": "coingecko",
       "change_24h_pct": null,
       "change_7d_pct": null
     },
     "OSMO": {
-      "price_usd": 0.039169380018251196,
+      "price_usd": 0.03856479272722491,
       "type": "token",
       "source": "coingecko",
       "change_24h_pct": null,
@@ -114,84 +114,84 @@
       "change_7d_pct": null
     },
     "STATOM": {
-      "price_usd": 3.0602092036864126,
+      "price_usd": 3.047972024054567,
       "type": "token",
       "source": "coingecko",
       "change_24h_pct": null,
       "change_7d_pct": null
     },
     "SOLID": {
-      "price_usd": 1.0016627945917949,
+      "price_usd": 1.0010826289141337,
       "type": "token",
       "source": "astroport",
-      "change_24h_pct": 0.0926228847386216,
-      "change_7d_pct": 0.10207051049007337
+      "change_24h_pct": 0.03464897905065638,
+      "change_7d_pct": 0.04409113271287216
     },
     "SWTH": {
-      "price_usd": 0.000441468857210643,
+      "price_usd": 0.000441246223250525,
       "type": "token",
       "source": "coingecko",
       "change_24h_pct": null,
       "change_7d_pct": null
     },
     "ROAR": {
-      "price_usd": 1.97765905911e-7,
+      "price_usd": 1.96675375518e-7,
       "type": "token",
       "source": "astroport",
-      "change_24h_pct": 0.47389916325343806,
-      "change_7d_pct": -8.837734850260185
+      "change_24h_pct": -0.08013890633199804,
+      "change_7d_pct": -9.34042625393042
     },
     "CAPA": {
-      "price_usd": 0.001118223389708643,
+      "price_usd": 0.001112088256950019,
       "type": "token",
       "source": "astroport",
-      "change_24h_pct": 1.740591040668849,
-      "change_7d_pct": -2.5941683126796766
+      "change_24h_pct": 1.1823912760064346,
+      "change_7d_pct": -3.128585419642175
     },
     "ASTRO": {
-      "price_usd": 0.000362682263090632,
+      "price_usd": 0.000364142059155888,
       "type": "token",
       "source": "astroport",
-      "change_24h_pct": 21.9925608998792,
-      "change_7d_pct": -18.303819570717167
+      "change_24h_pct": 22.48358094280765,
+      "change_7d_pct": -17.974992454329314
     },
     "xASTRO": {
-      "price_usd": 0.000476790491233629,
+      "price_usd": 0.000476708766588415,
       "type": "token",
       "source": "astroport-direct",
       "change_24h_pct": null,
       "change_7d_pct": null
     },
     "ampLUNA": {
-      "price_usd": 0.10595156517849635,
+      "price_usd": 0.10537055957832306,
       "type": "token",
       "source": "calculated-eris",
       "change_24h_pct": null,
       "change_7d_pct": null
     },
     "arbLUNA": {
-      "price_usd": 0.14370259160938204,
+      "price_usd": 0.14291457106119002,
       "type": "token",
       "source": "calculated-eris",
       "change_24h_pct": null,
       "change_7d_pct": null
     },
     "bLUNA": {
-      "price_usd": 0.08583620728133115,
+      "price_usd": 0.0853655080798227,
       "type": "token",
       "source": "calculated-eris",
       "change_24h_pct": null,
       "change_7d_pct": null
     },
     "ampCAPA": {
-      "price_usd": 0.001236238161939045,
+      "price_usd": 0.0012294555411187548,
       "type": "token",
       "source": "calculated-eris",
       "change_24h_pct": null,
       "change_7d_pct": null
     },
     "ampROAR": {
-      "price_usd": 2.3232799338120576e-7,
+      "price_usd": 2.3104687904170518e-7,
       "type": "token",
       "source": "calculated-eris",
       "change_24h_pct": null,
@@ -206,7 +206,7 @@
       "source": "eris-hub-chain"
     },
     "arbLUNA": {
-      "ratio": 2.9630402267083267,
+      "ratio": 2.9630402267104214,
       "hub": "terra1r9gls56glvuc4jedsvc3uwh6vj95mqm9efc7hnweqxa2nlme5cyqxygy5m",
       "base_token": "LUNA",
       "source": "eris-hub-chain"
@@ -230,7 +230,7 @@
       "source": "eris-hub-chain"
     },
     "xASTRO": {
-      "ratio": 1.3091595836923728,
+      "ratio": 1.309159583692372,
       "base_token": "ASTRO",
       "source": "astroport-trpc"
     }
