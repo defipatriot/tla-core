@@ -2,7 +2,7 @@
   "meta": {
     "version": "address-catalog-1.0.0",
     "schemaVersion": 1,
-    "generated_at": "2026-06-27T06:00:49.983Z",
+    "generated_at": "2026-06-28T06:00:41.748Z",
     "epoch": 191,
     "status": "ok",
     "source": "address-catalog cron (cron-scripts/address-catalog)"
@@ -23,7 +23,7 @@
       "status": "ok",
       "voting_module": "terra1c57ur376szdv8rtes6sa9nst4k536dynunksu8tx5zu4z5u3am6qmvqx47",
       "total_count": 156,
-      "registered_count": 44,
+      "registered_count": 43,
       "kept_count": 156,
       "error": null
     },
@@ -51,8 +51,8 @@
       "status": "ok",
       "voting_module": "terra127dehd2d6t7ynnezkxkre2w83ze0t7lmghpu6vn4y5mfmwfj5x9qqdh4sz",
       "total_count": 291,
-      "registered_count": 77,
-      "kept_count": 77,
+      "registered_count": 76,
+      "kept_count": 76,
       "error": null
     },
     {
@@ -70,12 +70,12 @@
     }
   ],
   "counts": {
-    "total_address_rows": 506,
+    "total_address_rows": 505,
     "unique_addresses": 390,
     "by_slug": {
       "adao": 156,
       "tla_locks": 203,
-      "pixellions": 77,
+      "pixellions": 76,
       "liondao": 70
     }
   },
@@ -944,7 +944,7 @@
       "address": "terra1vwpm2gzztvt847hh669w8w2mlvwmjdq2dzwpry",
       "slug": "adao",
       "type": "adao_staker",
-      "handle": "Cookso",
+      "handle": null,
       "retention": "all",
       "stake_raw": 2,
       "vp_pct_of_dao": 0.12254901960784313,
@@ -1641,16 +1641,6 @@
       "source": "daodao_indexer"
     },
     {
-      "address": "terra1xn7dl78lej5tynp6xq0402gfy7v2a4c83u8el6",
-      "slug": "tla_locks",
-      "type": "lock_holder",
-      "handle": null,
-      "retention": "all",
-      "stake_raw": 1,
-      "vp_pct_of_dao": 0,
-      "source": "veluna_cw721"
-    },
-    {
       "address": "terra1g6ykcx9xzyljgj2xnlll4deftjenvv365c43cp",
       "slug": "tla_locks",
       "type": "lock_holder",
@@ -1661,7 +1651,7 @@
       "source": "veluna_cw721"
     },
     {
-      "address": "terra1usjenjrtavqd6rxj8ctfl9tte828lmjcrk8ctx",
+      "address": "terra1xn7dl78lej5tynp6xq0402gfy7v2a4c83u8el6",
       "slug": "tla_locks",
       "type": "lock_holder",
       "handle": null,
@@ -1681,7 +1671,27 @@
       "source": "veluna_cw721"
     },
     {
+      "address": "terra1usjenjrtavqd6rxj8ctfl9tte828lmjcrk8ctx",
+      "slug": "tla_locks",
+      "type": "lock_holder",
+      "handle": null,
+      "retention": "all",
+      "stake_raw": 1,
+      "vp_pct_of_dao": 0,
+      "source": "veluna_cw721"
+    },
+    {
       "address": "terra1nuyy6jesef4vqe4f44wntctkelsymye7le40y6",
+      "slug": "tla_locks",
+      "type": "lock_holder",
+      "handle": null,
+      "retention": "all",
+      "stake_raw": 1,
+      "vp_pct_of_dao": 0,
+      "source": "veluna_cw721"
+    },
+    {
+      "address": "terra1xsc3yfhywg63jvtpe43gj6ymxgtk82w0m84fw7",
       "slug": "tla_locks",
       "type": "lock_holder",
       "handle": null,
@@ -1695,16 +1705,6 @@
       "slug": "tla_locks",
       "type": "lock_holder",
       "handle": "malarayat",
-      "retention": "all",
-      "stake_raw": 1,
-      "vp_pct_of_dao": 0,
-      "source": "veluna_cw721"
-    },
-    {
-      "address": "terra1xsc3yfhywg63jvtpe43gj6ymxgtk82w0m84fw7",
-      "slug": "tla_locks",
-      "type": "lock_holder",
-      "handle": null,
       "retention": "all",
       "stake_raw": 1,
       "vp_pct_of_dao": 0,
@@ -1861,22 +1861,22 @@
       "source": "veluna_cw721"
     },
     {
-      "address": "terra1rnwr9zjgf6204lyk37w0l6hhtaptke5m2cfpmf",
-      "slug": "tla_locks",
-      "type": "lock_holder",
-      "handle": "Rebel_Defi",
-      "retention": "all",
-      "stake_raw": 2,
-      "vp_pct_of_dao": 0,
-      "source": "veluna_cw721"
-    },
-    {
       "address": "terra1vyj3xxwffdg4tzacw52jqg58q99epszu7cjx2y",
       "slug": "tla_locks",
       "type": "lock_holder",
       "handle": "Formione",
       "retention": "all",
       "stake_raw": 3,
+      "vp_pct_of_dao": 0,
+      "source": "veluna_cw721"
+    },
+    {
+      "address": "terra1rnwr9zjgf6204lyk37w0l6hhtaptke5m2cfpmf",
+      "slug": "tla_locks",
+      "type": "lock_holder",
+      "handle": "Rebel_Defi",
+      "retention": "all",
+      "stake_raw": 2,
       "vp_pct_of_dao": 0,
       "source": "veluna_cw721"
     },
@@ -2011,20 +2011,20 @@
       "source": "veluna_cw721"
     },
     {
-      "address": "terra1muzld38hqugdh6hquvy6ersn9qe75g9ad8f75k",
+      "address": "terra19auhndehjye9v25trq80j2zek2q6gsegua3vsz",
       "slug": "tla_locks",
       "type": "lock_holder",
-      "handle": "xguy",
+      "handle": "natty",
       "retention": "all",
       "stake_raw": 3,
       "vp_pct_of_dao": 0,
       "source": "veluna_cw721"
     },
     {
-      "address": "terra19auhndehjye9v25trq80j2zek2q6gsegua3vsz",
+      "address": "terra1muzld38hqugdh6hquvy6ersn9qe75g9ad8f75k",
       "slug": "tla_locks",
       "type": "lock_holder",
-      "handle": "natty",
+      "handle": "xguy",
       "retention": "all",
       "stake_raw": 3,
       "vp_pct_of_dao": 0,
@@ -2131,16 +2131,6 @@
       "source": "veluna_cw721"
     },
     {
-      "address": "terra1k7wrmppe2dl5jerlpu3nlucqgudk8s3ngx48py",
-      "slug": "tla_locks",
-      "type": "lock_holder",
-      "handle": null,
-      "retention": "all",
-      "stake_raw": 2,
-      "vp_pct_of_dao": 0,
-      "source": "veluna_cw721"
-    },
-    {
       "address": "terra1vrjdx0t3jzarp66tml99skeuhaz308sr80p7u4",
       "slug": "tla_locks",
       "type": "lock_holder",
@@ -2151,12 +2141,32 @@
       "source": "veluna_cw721"
     },
     {
+      "address": "terra1k7wrmppe2dl5jerlpu3nlucqgudk8s3ngx48py",
+      "slug": "tla_locks",
+      "type": "lock_holder",
+      "handle": null,
+      "retention": "all",
+      "stake_raw": 2,
+      "vp_pct_of_dao": 0,
+      "source": "veluna_cw721"
+    },
+    {
       "address": "terra1mw650edddjqsz7mwmga0qm688j0wx9mdmu4n0w",
       "slug": "tla_locks",
       "type": "lock_holder",
       "handle": null,
       "retention": "all",
       "stake_raw": 3,
+      "vp_pct_of_dao": 0,
+      "source": "veluna_cw721"
+    },
+    {
+      "address": "terra1je9hqw9m8guxwny2qd6j802cqafp5av8vq4pf2",
+      "slug": "tla_locks",
+      "type": "lock_holder",
+      "handle": "mobile_d",
+      "retention": "all",
+      "stake_raw": 6,
       "vp_pct_of_dao": 0,
       "source": "veluna_cw721"
     },
@@ -2177,16 +2187,6 @@
       "handle": "OG_C",
       "retention": "all",
       "stake_raw": 7,
-      "vp_pct_of_dao": 0,
-      "source": "veluna_cw721"
-    },
-    {
-      "address": "terra1je9hqw9m8guxwny2qd6j802cqafp5av8vq4pf2",
-      "slug": "tla_locks",
-      "type": "lock_holder",
-      "handle": "mobile_d",
-      "retention": "all",
-      "stake_raw": 6,
       "vp_pct_of_dao": 0,
       "source": "veluna_cw721"
     },
@@ -2291,22 +2291,22 @@
       "source": "veluna_cw721"
     },
     {
-      "address": "terra12629f3upv4ltattegp6tzc7uwssq5wfdy7824f",
-      "slug": "tla_locks",
-      "type": "lock_holder",
-      "handle": null,
-      "retention": "all",
-      "stake_raw": 1,
-      "vp_pct_of_dao": 0,
-      "source": "veluna_cw721"
-    },
-    {
       "address": "terra1ktq0g9c3343ruk2lvuxkd2lnr9c9me3dttm0af",
       "slug": "tla_locks",
       "type": "lock_holder",
       "handle": null,
       "retention": "all",
       "stake_raw": 2,
+      "vp_pct_of_dao": 0,
+      "source": "veluna_cw721"
+    },
+    {
+      "address": "terra12629f3upv4ltattegp6tzc7uwssq5wfdy7824f",
+      "slug": "tla_locks",
+      "type": "lock_holder",
+      "handle": null,
+      "retention": "all",
+      "stake_raw": 1,
       "vp_pct_of_dao": 0,
       "source": "veluna_cw721"
     },
@@ -2371,22 +2371,22 @@
       "source": "veluna_cw721"
     },
     {
-      "address": "terra1f0p979gm6evwkhz8ahw0vxvgsjs3gtf4ff0hhn",
-      "slug": "tla_locks",
-      "type": "lock_holder",
-      "handle": null,
-      "retention": "all",
-      "stake_raw": 2,
-      "vp_pct_of_dao": 0,
-      "source": "veluna_cw721"
-    },
-    {
       "address": "terra16rhrvl9ajt9mty7cysu76humsdq2ze3j48500f",
       "slug": "tla_locks",
       "type": "lock_holder",
       "handle": "RK_Terra",
       "retention": "all",
       "stake_raw": 1,
+      "vp_pct_of_dao": 0,
+      "source": "veluna_cw721"
+    },
+    {
+      "address": "terra1f0p979gm6evwkhz8ahw0vxvgsjs3gtf4ff0hhn",
+      "slug": "tla_locks",
+      "type": "lock_holder",
+      "handle": null,
+      "retention": "all",
+      "stake_raw": 2,
       "vp_pct_of_dao": 0,
       "source": "veluna_cw721"
     },
@@ -2561,16 +2561,6 @@
       "source": "veluna_cw721"
     },
     {
-      "address": "terra149h2na988cka05rwcpmnqfse64r6vspmfmkk0z",
-      "slug": "tla_locks",
-      "type": "lock_holder",
-      "handle": "Quarks",
-      "retention": "all",
-      "stake_raw": 2,
-      "vp_pct_of_dao": 0,
-      "source": "veluna_cw721"
-    },
-    {
       "address": "terra1eqaq2kuntl3jh4xd5sjxcf9ncpuk2plml0dgsg",
       "slug": "tla_locks",
       "type": "lock_holder",
@@ -2581,10 +2571,10 @@
       "source": "veluna_cw721"
     },
     {
-      "address": "terra1kkvmg6l545fjl67f44hx9ytyjurx4s2r9z8att",
+      "address": "terra149h2na988cka05rwcpmnqfse64r6vspmfmkk0z",
       "slug": "tla_locks",
       "type": "lock_holder",
-      "handle": null,
+      "handle": "Quarks",
       "retention": "all",
       "stake_raw": 2,
       "vp_pct_of_dao": 0,
@@ -2597,6 +2587,16 @@
       "handle": null,
       "retention": "all",
       "stake_raw": 5,
+      "vp_pct_of_dao": 0,
+      "source": "veluna_cw721"
+    },
+    {
+      "address": "terra1kkvmg6l545fjl67f44hx9ytyjurx4s2r9z8att",
+      "slug": "tla_locks",
+      "type": "lock_holder",
+      "handle": null,
+      "retention": "all",
+      "stake_raw": 2,
       "vp_pct_of_dao": 0,
       "source": "veluna_cw721"
     },
@@ -2721,7 +2721,7 @@
       "source": "veluna_cw721"
     },
     {
-      "address": "terra18uxn7hug20nke4srsgjvys8vgm2jlaxmatpg7k",
+      "address": "terra1wxc4ufxg48h56kqhaaegzljjmup53rjxj70y5t",
       "slug": "tla_locks",
       "type": "lock_holder",
       "handle": null,
@@ -2731,7 +2731,7 @@
       "source": "veluna_cw721"
     },
     {
-      "address": "terra1wxc4ufxg48h56kqhaaegzljjmup53rjxj70y5t",
+      "address": "terra18uxn7hug20nke4srsgjvys8vgm2jlaxmatpg7k",
       "slug": "tla_locks",
       "type": "lock_holder",
       "handle": null,
@@ -2831,22 +2831,22 @@
       "source": "veluna_cw721"
     },
     {
-      "address": "terra1y8350u474qeha06kexnkk6jzanjv25x7pnl03e",
-      "slug": "tla_locks",
-      "type": "lock_holder",
-      "handle": "RyanLion_MSig",
-      "retention": "all",
-      "stake_raw": 1,
-      "vp_pct_of_dao": 0,
-      "source": "veluna_cw721"
-    },
-    {
       "address": "terra18gqpvh0vktgqena9728zuharqhc4628w9muwjw",
       "slug": "tla_locks",
       "type": "lock_holder",
       "handle": null,
       "retention": "all",
       "stake_raw": 3,
+      "vp_pct_of_dao": 0,
+      "source": "veluna_cw721"
+    },
+    {
+      "address": "terra1y8350u474qeha06kexnkk6jzanjv25x7pnl03e",
+      "slug": "tla_locks",
+      "type": "lock_holder",
+      "handle": "RyanLion_MSig",
+      "retention": "all",
+      "stake_raw": 1,
       "vp_pct_of_dao": 0,
       "source": "veluna_cw721"
     },
@@ -3211,20 +3211,20 @@
       "source": "veluna_cw721"
     },
     {
-      "address": "terra128a39d0xqa22kdvdkmeuryr7tpk85djft83w8h",
+      "address": "terra18xcx0vq9szk4kczgk289g3l9t9yt70t4ygkg9z",
       "slug": "tla_locks",
       "type": "lock_holder",
-      "handle": "Consigliera",
+      "handle": null,
       "retention": "all",
       "stake_raw": 2,
       "vp_pct_of_dao": 0,
       "source": "veluna_cw721"
     },
     {
-      "address": "terra18xcx0vq9szk4kczgk289g3l9t9yt70t4ygkg9z",
+      "address": "terra128a39d0xqa22kdvdkmeuryr7tpk85djft83w8h",
       "slug": "tla_locks",
       "type": "lock_holder",
-      "handle": null,
+      "handle": "Consigliera",
       "retention": "all",
       "stake_raw": 2,
       "vp_pct_of_dao": 0,
@@ -3341,7 +3341,7 @@
       "source": "veluna_cw721"
     },
     {
-      "address": "terra174jqm68e3mp28gwcqxu5q4vvdyjujefl7pxf8d",
+      "address": "terra1syezgfuee9qck6490fxvruwnyq78gs5jv8dd2q",
       "slug": "tla_locks",
       "type": "lock_holder",
       "handle": null,
@@ -3351,7 +3351,7 @@
       "source": "veluna_cw721"
     },
     {
-      "address": "terra1syezgfuee9qck6490fxvruwnyq78gs5jv8dd2q",
+      "address": "terra174jqm68e3mp28gwcqxu5q4vvdyjujefl7pxf8d",
       "slug": "tla_locks",
       "type": "lock_holder",
       "handle": null,
@@ -3531,20 +3531,20 @@
       "source": "veluna_cw721"
     },
     {
-      "address": "terra1z0nvmv57cqax4s6lssft9yhfn8ksxcf7dm7mq8",
+      "address": "terra1j3ynfcuzl9e5y33ts9lcfxcteh7xg2a3zzc7gm",
       "slug": "tla_locks",
       "type": "lock_holder",
-      "handle": "singda",
+      "handle": "Crypto007",
       "retention": "all",
       "stake_raw": 1,
       "vp_pct_of_dao": 0,
       "source": "veluna_cw721"
     },
     {
-      "address": "terra1j3ynfcuzl9e5y33ts9lcfxcteh7xg2a3zzc7gm",
+      "address": "terra1z0nvmv57cqax4s6lssft9yhfn8ksxcf7dm7mq8",
       "slug": "tla_locks",
       "type": "lock_holder",
-      "handle": "Crypto007",
+      "handle": "singda",
       "retention": "all",
       "stake_raw": 1,
       "vp_pct_of_dao": 0,
@@ -3571,16 +3571,6 @@
       "source": "veluna_cw721"
     },
     {
-      "address": "terra1vjgada9t78eh4v8whp9p8cg4evq4erusx9w6w8",
-      "slug": "tla_locks",
-      "type": "lock_holder",
-      "handle": "DigitalCowboy",
-      "retention": "all",
-      "stake_raw": 1,
-      "vp_pct_of_dao": 0,
-      "source": "veluna_cw721"
-    },
-    {
       "address": "terra1fu2ddncwngqhwmupq09pf4ed9czunc99fjky2k",
       "slug": "tla_locks",
       "type": "lock_holder",
@@ -3597,6 +3587,16 @@
       "handle": null,
       "retention": "all",
       "stake_raw": 2,
+      "vp_pct_of_dao": 0,
+      "source": "veluna_cw721"
+    },
+    {
+      "address": "terra1vjgada9t78eh4v8whp9p8cg4evq4erusx9w6w8",
+      "slug": "tla_locks",
+      "type": "lock_holder",
+      "handle": "DigitalCowboy",
+      "retention": "all",
+      "stake_raw": 1,
       "vp_pct_of_dao": 0,
       "source": "veluna_cw721"
     },
@@ -3641,20 +3641,20 @@
       "source": "veluna_cw721"
     },
     {
-      "address": "terra165zsmxxvgrk87yp4p3cg6vaahylprh6nhdpkxu",
+      "address": "terra1g9y27q0txc656ckj9lwvfv689a4gc3egerejj7",
       "slug": "tla_locks",
       "type": "lock_holder",
-      "handle": null,
+      "handle": "RealEC",
       "retention": "all",
       "stake_raw": 1,
       "vp_pct_of_dao": 0,
       "source": "veluna_cw721"
     },
     {
-      "address": "terra1g9y27q0txc656ckj9lwvfv689a4gc3egerejj7",
+      "address": "terra165zsmxxvgrk87yp4p3cg6vaahylprh6nhdpkxu",
       "slug": "tla_locks",
       "type": "lock_holder",
-      "handle": "RealEC",
+      "handle": null,
       "retention": "all",
       "stake_raw": 1,
       "vp_pct_of_dao": 0,
@@ -3835,16 +3835,6 @@
       "slug": "pixellions",
       "type": "ally_member",
       "handle": "Terrantino",
-      "retention": "registered_only",
-      "stake_raw": 12,
-      "vp_pct_of_dao": 0.4294917680744453,
-      "source": "daodao_indexer"
-    },
-    {
-      "address": "terra1vwpm2gzztvt847hh669w8w2mlvwmjdq2dzwpry",
-      "slug": "pixellions",
-      "type": "ally_member",
-      "handle": "Cookso",
       "retention": "registered_only",
       "stake_raw": 12,
       "vp_pct_of_dao": 0.4294917680744453,
@@ -6359,19 +6349,13 @@
       ]
     },
     "terra1vwpm2gzztvt847hh669w8w2mlvwmjdq2dzwpry": {
-      "handle": "Cookso",
+      "handle": null,
       "memberships": [
         {
           "slug": "adao",
           "type": "adao_staker",
           "stake_raw": 2,
           "vp_pct_of_dao": 0.12254901960784313
-        },
-        {
-          "slug": "pixellions",
-          "type": "ally_member",
-          "stake_raw": 12,
-          "vp_pct_of_dao": 0.4294917680744453
         }
       ]
     },
@@ -7302,17 +7286,6 @@
         }
       ]
     },
-    "terra1xn7dl78lej5tynp6xq0402gfy7v2a4c83u8el6": {
-      "handle": null,
-      "memberships": [
-        {
-          "slug": "tla_locks",
-          "type": "lock_holder",
-          "stake_raw": 1,
-          "vp_pct_of_dao": 0
-        }
-      ]
-    },
     "terra1g6ykcx9xzyljgj2xnlll4deftjenvv365c43cp": {
       "handle": "ChronoAnastasisTS",
       "memberships": [
@@ -7324,7 +7297,7 @@
         }
       ]
     },
-    "terra1usjenjrtavqd6rxj8ctfl9tte828lmjcrk8ctx": {
+    "terra1xn7dl78lej5tynp6xq0402gfy7v2a4c83u8el6": {
       "handle": null,
       "memberships": [
         {
@@ -7346,7 +7319,29 @@
         }
       ]
     },
+    "terra1usjenjrtavqd6rxj8ctfl9tte828lmjcrk8ctx": {
+      "handle": null,
+      "memberships": [
+        {
+          "slug": "tla_locks",
+          "type": "lock_holder",
+          "stake_raw": 1,
+          "vp_pct_of_dao": 0
+        }
+      ]
+    },
     "terra1nuyy6jesef4vqe4f44wntctkelsymye7le40y6": {
+      "handle": null,
+      "memberships": [
+        {
+          "slug": "tla_locks",
+          "type": "lock_holder",
+          "stake_raw": 1,
+          "vp_pct_of_dao": 0
+        }
+      ]
+    },
+    "terra1xsc3yfhywg63jvtpe43gj6ymxgtk82w0m84fw7": {
       "handle": null,
       "memberships": [
         {
@@ -7359,17 +7354,6 @@
     },
     "terra1080fppanw9vmtnfyslyug03rj955z7w5z95nzl": {
       "handle": "malarayat",
-      "memberships": [
-        {
-          "slug": "tla_locks",
-          "type": "lock_holder",
-          "stake_raw": 1,
-          "vp_pct_of_dao": 0
-        }
-      ]
-    },
-    "terra1xsc3yfhywg63jvtpe43gj6ymxgtk82w0m84fw7": {
-      "handle": null,
       "memberships": [
         {
           "slug": "tla_locks",
@@ -7666,6 +7650,17 @@
         }
       ]
     },
+    "terra19auhndehjye9v25trq80j2zek2q6gsegua3vsz": {
+      "handle": "natty",
+      "memberships": [
+        {
+          "slug": "tla_locks",
+          "type": "lock_holder",
+          "stake_raw": 3,
+          "vp_pct_of_dao": 0
+        }
+      ]
+    },
     "terra1muzld38hqugdh6hquvy6ersn9qe75g9ad8f75k": {
       "handle": "xguy",
       "memberships": [
@@ -7680,17 +7675,6 @@
           "type": "ally_member",
           "stake_raw": 20,
           "vp_pct_of_dao": 0.7158196134574087
-        }
-      ]
-    },
-    "terra19auhndehjye9v25trq80j2zek2q6gsegua3vsz": {
-      "handle": "natty",
-      "memberships": [
-        {
-          "slug": "tla_locks",
-          "type": "lock_holder",
-          "stake_raw": 3,
-          "vp_pct_of_dao": 0
         }
       ]
     },
@@ -7931,17 +7915,6 @@
         }
       ]
     },
-    "terra12629f3upv4ltattegp6tzc7uwssq5wfdy7824f": {
-      "handle": null,
-      "memberships": [
-        {
-          "slug": "tla_locks",
-          "type": "lock_holder",
-          "stake_raw": 1,
-          "vp_pct_of_dao": 0
-        }
-      ]
-    },
     "terra1ktq0g9c3343ruk2lvuxkd2lnr9c9me3dttm0af": {
       "handle": null,
       "memberships": [
@@ -7949,6 +7922,17 @@
           "slug": "tla_locks",
           "type": "lock_holder",
           "stake_raw": 2,
+          "vp_pct_of_dao": 0
+        }
+      ]
+    },
+    "terra12629f3upv4ltattegp6tzc7uwssq5wfdy7824f": {
+      "handle": null,
+      "memberships": [
+        {
+          "slug": "tla_locks",
+          "type": "lock_holder",
+          "stake_raw": 1,
           "vp_pct_of_dao": 0
         }
       ]
@@ -8026,17 +8010,6 @@
         }
       ]
     },
-    "terra1f0p979gm6evwkhz8ahw0vxvgsjs3gtf4ff0hhn": {
-      "handle": null,
-      "memberships": [
-        {
-          "slug": "tla_locks",
-          "type": "lock_holder",
-          "stake_raw": 2,
-          "vp_pct_of_dao": 0
-        }
-      ]
-    },
     "terra16rhrvl9ajt9mty7cysu76humsdq2ze3j48500f": {
       "handle": "RK_Terra",
       "memberships": [
@@ -8051,6 +8024,17 @@
           "type": "ally_member",
           "stake_raw": "22250751913394",
           "vp_pct_of_dao": 0.010056853365546
+        }
+      ]
+    },
+    "terra1f0p979gm6evwkhz8ahw0vxvgsjs3gtf4ff0hhn": {
+      "handle": null,
+      "memberships": [
+        {
+          "slug": "tla_locks",
+          "type": "lock_holder",
+          "stake_raw": 2,
+          "vp_pct_of_dao": 0
         }
       ]
     },
@@ -8215,17 +8199,6 @@
         }
       ]
     },
-    "terra149h2na988cka05rwcpmnqfse64r6vspmfmkk0z": {
-      "handle": "Quarks",
-      "memberships": [
-        {
-          "slug": "tla_locks",
-          "type": "lock_holder",
-          "stake_raw": 2,
-          "vp_pct_of_dao": 0
-        }
-      ]
-    },
     "terra1eqaq2kuntl3jh4xd5sjxcf9ncpuk2plml0dgsg": {
       "handle": "Ecclesia_Lunatic",
       "memberships": [
@@ -8240,6 +8213,17 @@
           "type": "ally_member",
           "stake_raw": 31,
           "vp_pct_of_dao": 1.1095204008589834
+        }
+      ]
+    },
+    "terra149h2na988cka05rwcpmnqfse64r6vspmfmkk0z": {
+      "handle": "Quarks",
+      "memberships": [
+        {
+          "slug": "tla_locks",
+          "type": "lock_holder",
+          "stake_raw": 2,
+          "vp_pct_of_dao": 0
         }
       ]
     },
@@ -8364,7 +8348,7 @@
         }
       ]
     },
-    "terra18uxn7hug20nke4srsgjvys8vgm2jlaxmatpg7k": {
+    "terra1wxc4ufxg48h56kqhaaegzljjmup53rjxj70y5t": {
       "handle": null,
       "memberships": [
         {
@@ -8375,7 +8359,7 @@
         }
       ]
     },
-    "terra1wxc4ufxg48h56kqhaaegzljjmup53rjxj70y5t": {
+    "terra18uxn7hug20nke4srsgjvys8vgm2jlaxmatpg7k": {
       "handle": null,
       "memberships": [
         {
@@ -8485,17 +8469,6 @@
         }
       ]
     },
-    "terra1y8350u474qeha06kexnkk6jzanjv25x7pnl03e": {
-      "handle": "RyanLion_MSig",
-      "memberships": [
-        {
-          "slug": "tla_locks",
-          "type": "lock_holder",
-          "stake_raw": 1,
-          "vp_pct_of_dao": 0
-        }
-      ]
-    },
     "terra18gqpvh0vktgqena9728zuharqhc4628w9muwjw": {
       "handle": null,
       "memberships": [
@@ -8503,6 +8476,17 @@
           "slug": "tla_locks",
           "type": "lock_holder",
           "stake_raw": 3,
+          "vp_pct_of_dao": 0
+        }
+      ]
+    },
+    "terra1y8350u474qeha06kexnkk6jzanjv25x7pnl03e": {
+      "handle": "RyanLion_MSig",
+      "memberships": [
+        {
+          "slug": "tla_locks",
+          "type": "lock_holder",
+          "stake_raw": 1,
           "vp_pct_of_dao": 0
         }
       ]
@@ -8849,8 +8833,8 @@
         }
       ]
     },
-    "terra128a39d0xqa22kdvdkmeuryr7tpk85djft83w8h": {
-      "handle": "Consigliera",
+    "terra18xcx0vq9szk4kczgk289g3l9t9yt70t4ygkg9z": {
+      "handle": null,
       "memberships": [
         {
           "slug": "tla_locks",
@@ -8860,8 +8844,8 @@
         }
       ]
     },
-    "terra18xcx0vq9szk4kczgk289g3l9t9yt70t4ygkg9z": {
-      "handle": null,
+    "terra128a39d0xqa22kdvdkmeuryr7tpk85djft83w8h": {
+      "handle": "Consigliera",
       "memberships": [
         {
           "slug": "tla_locks",
@@ -9262,8 +9246,8 @@
         }
       ]
     },
-    "terra165zsmxxvgrk87yp4p3cg6vaahylprh6nhdpkxu": {
-      "handle": null,
+    "terra1g9y27q0txc656ckj9lwvfv689a4gc3egerejj7": {
+      "handle": "RealEC",
       "memberships": [
         {
           "slug": "tla_locks",
@@ -9273,8 +9257,8 @@
         }
       ]
     },
-    "terra1g9y27q0txc656ckj9lwvfv689a4gc3egerejj7": {
-      "handle": "RealEC",
+    "terra165zsmxxvgrk87yp4p3cg6vaahylprh6nhdpkxu": {
+      "handle": null,
       "memberships": [
         {
           "slug": "tla_locks",
