@@ -2,8 +2,8 @@
   "meta": {
     "version": "contract-token-catalog-1.0.0",
     "schemaVersion": 1,
-    "generated_at": "2026-07-11T07:00:34.037Z",
-    "epoch": 193,
+    "generated_at": "2026-07-13T07:00:31.359Z",
+    "epoch": 194,
     "status": "ok",
     "source": "contract-token-catalog cron (cron-scripts/contract-token-catalog)"
   },
@@ -32,7 +32,7 @@
           "decimals": 6,
           "type": "native"
         },
-        "ratio": 0.8294650895312385,
+        "ratio": 0.8290107082581588,
         "ratio_type": "non-amplified"
       },
       {
@@ -58,7 +58,7 @@
           "decimals": 6,
           "type": "ibc"
         },
-        "ratio": 0.8306469189906424,
+        "ratio": 0.8301918898266426,
         "ratio_type": "non-amplified"
       },
       {
@@ -84,7 +84,7 @@
           "decimals": 6,
           "type": "ibc"
         },
-        "ratio": 0.8647216532790922,
+        "ratio": 0.8642479594434695,
         "ratio_type": "non-amplified"
       },
       {
@@ -110,7 +110,7 @@
           "decimals": 6,
           "type": "ibc"
         },
-        "ratio": 0.8294460416745528,
+        "ratio": 0.8289916701462501,
         "ratio_type": "non-amplified"
       },
       {
@@ -136,7 +136,7 @@
           "decimals": 6,
           "type": "cw20"
         },
-        "ratio": 0.8295817322081281,
+        "ratio": 0.8291272885785302,
         "ratio_type": "non-amplified"
       },
       {
@@ -162,7 +162,7 @@
           "decimals": 6,
           "type": "native"
         },
-        "ratio": 0.832235684259497,
+        "ratio": 0.8317797855461299,
         "ratio_type": "non-amplified"
       },
       {
@@ -188,34 +188,7 @@
           "decimals": 6,
           "type": "native"
         },
-        "ratio": 0.8296664867376832,
-        "ratio_type": "non-amplified"
-      },
-      {
-        "name": "LUNA-stLUNA",
-        "dex": "Astroport",
-        "dex_subtype": "stable",
-        "pair_type": "stable",
-        "bucket": "project",
-        "status": "active",
-        "dex_contract": "terra1re0yj0j6e9v2szg7kp02ut6u8jjea586t6pnpq6628wl36fphtpqwt6l7p",
-        "lp_nonamplified": "terra14n22zd24nath0tf8fwn468nz7753rjuks67ppddrcqwq37x2xsxsddqxqc",
-        "lp_amplified": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/39/project/amplp",
-        "gauge_pool_id": "cw20:terra14n22zd24nath0tf8fwn468nz7753rjuks67ppddrcqwq37x2xsxsddqxqc",
-        "token_a": {
-          "symbol": "stLUNA",
-          "address": null,
-          "decimals": null,
-          "type": null,
-          "note": "not in token registry"
-        },
-        "token_b": {
-          "symbol": "LUNA",
-          "address": "uluna",
-          "decimals": 6,
-          "type": "native"
-        },
-        "ratio": 0.8467301115929684,
+        "ratio": 0.8292119953459722,
         "ratio_type": "non-amplified"
       },
       {
@@ -241,7 +214,7 @@
           "decimals": 6,
           "type": "native"
         },
-        "ratio": 0.8499541497927765,
+        "ratio": 0.8494885441361112,
         "ratio_type": "non-amplified"
       },
       {
@@ -268,7 +241,7 @@
           "decimals": 6,
           "type": "native"
         },
-        "ratio": 0.9264674111312874,
+        "ratio": 0.9259598914948505,
         "ratio_type": "non-amplified"
       },
       {
@@ -294,7 +267,7 @@
           "decimals": 6,
           "type": "cw20"
         },
-        "ratio": 0.8296839809349276,
+        "ratio": 0.8292294796414201,
         "ratio_type": "non-amplified"
       },
       {
@@ -320,7 +293,7 @@
           "decimals": 6,
           "type": "native"
         },
-        "ratio": 0.8296838772481362,
+        "ratio": 0.8292293753723718,
         "ratio_type": "non-amplified"
       },
       {
@@ -346,7 +319,7 @@
           "decimals": 6,
           "type": "native"
         },
-        "ratio": 0.8296585746416226,
+        "ratio": 0.829204086379508,
         "ratio_type": "non-amplified"
       },
       {
@@ -372,7 +345,7 @@
           "decimals": 6,
           "type": "ibc"
         },
-        "ratio": 0.8647802155047789,
+        "ratio": 0.8643064885941313,
         "ratio_type": "non-amplified"
       },
       {
@@ -398,7 +371,7 @@
           "decimals": 6,
           "type": "native"
         },
-        "ratio": 0.8306694408492206,
+        "ratio": 0.8302143995512613,
         "ratio_type": "non-amplified"
       },
       {
@@ -424,7 +397,7 @@
           "decimals": 6,
           "type": "native"
         },
-        "ratio": 0.8298909872401649,
+        "ratio": 0.8294363741244775,
         "ratio_type": "non-amplified"
       },
       {
@@ -451,7 +424,7 @@
           "type": null,
           "note": "not in token registry"
         },
-        "ratio": 0.8467264289986048,
+        "ratio": 0.8462625910109673,
         "ratio_type": "non-amplified"
       },
       {
@@ -477,7 +450,7 @@
           "decimals": 6,
           "type": "ibc"
         },
-        "ratio": 0.8832155891238012,
+        "ratio": 0.8827317630673966,
         "ratio_type": "non-amplified"
       },
       {
@@ -503,7 +476,7 @@
           "decimals": 6,
           "type": "ibc"
         },
-        "ratio": 0.9355477338471576,
+        "ratio": 0.9350352504275736,
         "ratio_type": "non-amplified"
       },
       {
@@ -529,7 +502,7 @@
           "decimals": 8,
           "type": "ibc"
         },
-        "ratio": 0.9107369099275686,
+        "ratio": 0.9102380300203228,
         "ratio_type": "non-amplified"
       },
       {
@@ -555,7 +528,7 @@
           "decimals": 18,
           "type": "ibc"
         },
-        "ratio": 0.8299842676569655,
+        "ratio": 0.829523591933418,
         "ratio_type": "non-amplified"
       },
       {
@@ -581,7 +554,7 @@
           "decimals": 6,
           "type": "native"
         },
-        "ratio": 0.829581765202826,
+        "ratio": 0.829121322629238,
         "ratio_type": "non-amplified"
       },
       {
@@ -608,7 +581,7 @@
           "type": null,
           "note": "not in token registry"
         },
-        "ratio": 0.8454898393192276,
+        "ratio": 0.8450007619238801,
         "ratio_type": "non-amplified"
       },
       {
@@ -634,7 +607,7 @@
           "decimals": 8,
           "type": "ibc"
         },
-        "ratio": 0.9780937868556459,
+        "ratio": 0.9775639401325559,
         "ratio_type": "non-amplified"
       },
       {
@@ -660,7 +633,7 @@
           "decimals": 6,
           "type": "cw20"
         },
-        "ratio": 0.9414839700844877,
+        "ratio": 0.9409682237014655,
         "ratio_type": "non-amplified"
       },
       {
@@ -686,7 +659,7 @@
           "decimals": 6,
           "type": "ibc"
         },
-        "ratio": 0.8832155891238012,
+        "ratio": 0.8827317630673966,
         "ratio_type": "non-amplified"
       },
       {
@@ -712,7 +685,7 @@
           "decimals": 6,
           "type": "cw20"
         },
-        "ratio": 0.9177103529388798,
+        "ratio": 0.9172076304850749,
         "ratio_type": "non-amplified"
       },
       {
@@ -738,7 +711,7 @@
           "decimals": 8,
           "type": "ibc"
         },
-        "ratio": 0.8418993806367489,
+        "ratio": 0.8414321416929262,
         "ratio_type": "non-amplified"
       },
       {
@@ -764,7 +737,7 @@
           "decimals": 6,
           "type": "ibc"
         },
-        "ratio": 0.9427447853824976,
+        "ratio": 0.9422283486202414,
         "ratio_type": "non-amplified"
       },
       {
@@ -790,7 +763,7 @@
           "decimals": 6,
           "type": "cw20"
         },
-        "ratio": 0.8416203497408451,
+        "ratio": 0.8411593087995645,
         "ratio_type": "non-amplified"
       }
     ],
@@ -818,7 +791,7 @@
           "decimals": 6,
           "type": "ibc"
         },
-        "ratio": 0.8664145479548471,
+        "ratio": 0.8659399265935844,
         "ratio_type": "non-amplified"
       },
       {
@@ -844,7 +817,7 @@
           "decimals": 6,
           "type": "ibc"
         },
-        "ratio": 0.8301277512210069,
+        "ratio": 0.8296732150681039,
         "ratio_type": "non-amplified"
       },
       {
@@ -870,7 +843,34 @@
           "decimals": 6,
           "type": "native"
         },
-        "ratio": 0.8483519767498624,
+        "ratio": 0.8478872503263278,
+        "ratio_type": "non-amplified"
+      },
+      {
+        "name": "LUNA-stLUNA",
+        "dex": "Astroport",
+        "dex_subtype": "stable",
+        "pair_type": "stable",
+        "bucket": "project",
+        "status": "voted_but_below_threshold",
+        "dex_contract": "terra1re0yj0j6e9v2szg7kp02ut6u8jjea586t6pnpq6628wl36fphtpqwt6l7p",
+        "lp_nonamplified": "terra14n22zd24nath0tf8fwn468nz7753rjuks67ppddrcqwq37x2xsxsddqxqc",
+        "lp_amplified": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/39/project/amplp",
+        "gauge_pool_id": "cw20:terra14n22zd24nath0tf8fwn468nz7753rjuks67ppddrcqwq37x2xsxsddqxqc",
+        "token_a": {
+          "symbol": "stLUNA",
+          "address": null,
+          "decimals": null,
+          "type": null,
+          "note": "not in token registry"
+        },
+        "token_b": {
+          "symbol": "LUNA",
+          "address": "uluna",
+          "decimals": 6,
+          "type": "native"
+        },
+        "ratio": 0.8462662720654447,
         "ratio_type": "non-amplified"
       },
       {
@@ -896,7 +896,7 @@
           "decimals": 6,
           "type": "native"
         },
-        "ratio": 0.9230476676578464,
+        "ratio": 0.9225420182059632,
         "ratio_type": "non-amplified"
       },
       {
@@ -950,7 +950,7 @@
           "decimals": 6,
           "type": "native"
         },
-        "ratio": 0.8428260164860296,
+        "ratio": 0.8423457899904735,
         "ratio_type": "non-amplified"
       },
       {
@@ -976,7 +976,7 @@
           "decimals": 6,
           "type": "cw20"
         },
-        "ratio": 0.9669722664543259,
+        "ratio": 0.966443747529129,
         "ratio_type": "non-amplified"
       },
       {
@@ -1002,7 +1002,7 @@
           "decimals": 6,
           "type": "native"
         },
-        "ratio": 0.8499538027384074,
+        "ratio": 0.8494881968547802,
         "ratio_type": "non-amplified"
       },
       {
@@ -1028,7 +1028,7 @@
           "decimals": 6,
           "type": "cw20"
         },
-        "ratio": 0.8718675074720005,
+        "ratio": 0.8714733799717542,
         "ratio_type": "non-amplified"
       },
       {
@@ -1054,7 +1054,7 @@
           "decimals": 6,
           "type": "cw20"
         },
-        "ratio": 0.841809611991133,
+        "ratio": 0.8413486581015187,
         "ratio_type": "non-amplified"
       },
       {
@@ -1107,7 +1107,7 @@
           "type": null,
           "note": "not in token registry"
         },
-        "ratio": 0.8259501132540967,
+        "ratio": 0.8254535353047581,
         "ratio_type": "non-amplified"
       },
       {
@@ -1133,7 +1133,7 @@
           "decimals": 6,
           "type": "native"
         },
-        "ratio": 0.9098217692265765,
+        "ratio": 0.9093312258134845,
         "ratio_type": "non-amplified"
       },
       {
@@ -1186,7 +1186,7 @@
           "decimals": 18,
           "type": "ibc"
         },
-        "ratio": 0.9371000680735194,
+        "ratio": 0.9366235534377128,
         "ratio_type": "non-amplified"
       },
       {
@@ -1212,7 +1212,7 @@
           "decimals": 8,
           "type": "ibc"
         },
-        "ratio": 0.8299357382943505,
+        "ratio": 0.8294750866457461,
         "ratio_type": "non-amplified"
       },
       {
@@ -1265,7 +1265,7 @@
           "type": null,
           "note": "not in token registry"
         },
-        "ratio": 0.8324456301435722,
+        "ratio": 0.831986852565855,
         "ratio_type": "non-amplified"
       },
       {
@@ -1292,7 +1292,7 @@
           "type": null,
           "note": "not in token registry"
         },
-        "ratio": 0.8261273216685148,
+        "ratio": 0.8256264365595258,
         "ratio_type": "non-amplified"
       },
       {
@@ -1318,7 +1318,7 @@
           "decimals": 6,
           "type": "ibc"
         },
-        "ratio": 0.9427447853824976,
+        "ratio": 0.9422283486202414,
         "ratio_type": "non-amplified"
       },
       {
@@ -1398,7 +1398,7 @@
           "type": null,
           "note": "not in token registry"
         },
-        "ratio": 0.8296423206331116,
+        "ratio": 0.8291878388826488,
         "ratio_type": "non-amplified"
       },
       {
@@ -1424,7 +1424,7 @@
           "decimals": 6,
           "type": "ibc"
         },
-        "ratio": 0.8664424375477041,
+        "ratio": 0.8659678016447164,
         "ratio_type": "non-amplified"
       },
       {
@@ -1450,7 +1450,7 @@
           "decimals": 8,
           "type": "ibc"
         },
-        "ratio": 0.8647768437387261,
+        "ratio": 0.8642974691989503,
         "ratio_type": "non-amplified"
       },
       {
@@ -1505,7 +1505,7 @@
           "type": null,
           "note": "not in token registry"
         },
-        "ratio": 0.8385822017920964,
+        "ratio": 0.838084470712026,
         "ratio_type": "non-amplified"
       },
       {
@@ -1532,7 +1532,7 @@
           "type": null,
           "note": "not in token registry"
         },
-        "ratio": 0.864648218806126,
+        "ratio": 0.8641683031229445,
         "ratio_type": "non-amplified"
       },
       {
@@ -1558,7 +1558,7 @@
           "decimals": 6,
           "type": "native"
         },
-        "ratio": 0.8408658287184709,
+        "ratio": 0.8403858618600883,
         "ratio_type": "non-amplified"
       },
       {
@@ -1586,7 +1586,7 @@
           "type": null,
           "note": "not in token registry"
         },
-        "ratio": 0.838640713563361,
+        "ratio": 0.8381429477787179,
         "ratio_type": "non-amplified"
       },
       {
@@ -1641,7 +1641,7 @@
           "type": null,
           "note": "not in token registry"
         },
-        "ratio": 0.9049936276213648,
+        "ratio": 0.9045301819024447,
         "ratio_type": "non-amplified"
       },
       {
@@ -1695,7 +1695,7 @@
           "type": null,
           "note": "not in token registry"
         },
-        "ratio": 0.8413388730618214,
+        "ratio": 0.8408760396548323,
         "ratio_type": "non-amplified"
       },
       {
@@ -1721,7 +1721,7 @@
           "decimals": 6,
           "type": "cw20"
         },
-        "ratio": 0.8418724140533177,
+        "ratio": 0.8414112537029967,
         "ratio_type": "non-amplified"
       }
     ],
@@ -1739,7 +1739,7 @@
         "gauge_pool_id": "native:factory/terra186rpfczl7l2kugdsqqedegl4es4hp624phfc7ddy8my02a4e8lgq5rlx7y/ampCAPA",
         "token_a": null,
         "token_b": null,
-        "ratio": 0.8496930605794477,
+        "ratio": 0.8492275977224427,
         "ratio_type": "non-amplified"
       },
       {
@@ -1755,7 +1755,7 @@
         "gauge_pool_id": "native:ibc/65B3EB6263482979FD7A80E3FFB9D0C85CFBF6DB63EB8DDE918B2984A40CEAB6",
         "token_a": null,
         "token_b": null,
-        "ratio": 0.8410746610162765,
+        "ratio": 0.8406139169923881,
         "ratio_type": "non-amplified"
       }
     ],
