@@ -2,10 +2,10 @@
   "meta": {
     "version": "prices-1.0.0",
     "schemaVersion": 1,
-    "generated_at": "2026-08-02T20:30:36.133Z",
+    "generated_at": "2026-08-02T20:45:17.119Z",
     "epoch": 196,
     "source": "network-and-prices (consolidated)",
-    "token_count": 27
+    "token_count": 20
   },
   "prices": {
     "LUNA": {
@@ -44,18 +44,11 @@
       "change_7d_pct": 0.14342208552004565
     },
     "EURE": {
-      "price_usd": 0.5128071587576233,
+      "price_usd": 1.15,
       "type": "token",
-      "source": "coingecko (astroport flagged stale)",
+      "source": "astroport",
       "change_24h_pct": 0,
       "change_7d_pct": 0.8771929824561412
-    },
-    "INJ": {
-      "price_usd": 5.062719798873705,
-      "type": "token",
-      "source": "coingecko",
-      "change_24h_pct": null,
-      "change_7d_pct": null
     },
     "ATOM": {
       "price_usd": 1.25,
@@ -71,13 +64,6 @@
       "change_24h_pct": 0.7219071680060238,
       "change_7d_pct": 0.05873934681845853
     },
-    "WETH": {
-      "price_usd": 1875.3738255069131,
-      "type": "token",
-      "source": "coingecko",
-      "change_24h_pct": null,
-      "change_7d_pct": null
-    },
     "WSTETH": {
       "price_usd": 2332.83,
       "type": "token",
@@ -92,47 +78,12 @@
       "change_24h_pct": -0.520131652995439,
       "change_7d_pct": 2.637459312043637
     },
-    "WBNB": {
-      "price_usd": 587.0242761733249,
-      "type": "token",
-      "source": "coingecko",
-      "change_24h_pct": null,
-      "change_7d_pct": null
-    },
-    "OSMO": {
-      "price_usd": 0.0272073767621609,
-      "type": "token",
-      "source": "coingecko",
-      "change_24h_pct": null,
-      "change_7d_pct": null
-    },
-    "STLUNA": {
-      "price_usd": 0.07698907560558596,
-      "type": "token",
-      "source": "coingecko",
-      "change_24h_pct": null,
-      "change_7d_pct": null
-    },
-    "STATOM": {
-      "price_usd": 2.442858238022354,
-      "type": "token",
-      "source": "coingecko",
-      "change_24h_pct": null,
-      "change_7d_pct": null
-    },
     "SOLID": {
       "price_usd": 1.0022667855098952,
       "type": "token",
       "source": "astroport",
       "change_24h_pct": 0.5600047307475085,
       "change_7d_pct": 1.9398160852245412
-    },
-    "SWTH": {
-      "price_usd": 0.000200061264062588,
-      "type": "token",
-      "source": "coingecko",
-      "change_24h_pct": null,
-      "change_7d_pct": null
     },
     "ROAR": {
       "price_usd": 1.81568288265e-7,
