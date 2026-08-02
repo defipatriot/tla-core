@@ -2,7 +2,7 @@
   "meta": {
     "version": "prices-1.0.0",
     "schemaVersion": 1,
-    "generated_at": "2026-08-02T09:30:24.483Z",
+    "generated_at": "2026-08-02T09:45:25.801Z",
     "epoch": 196,
     "source": "network-and-prices (consolidated)",
     "token_count": 27
@@ -51,7 +51,7 @@
       "change_7d_pct": 0.8771929824561412
     },
     "INJ": {
-      "price_usd": 4.90630720447623,
+      "price_usd": 4.947952161507214,
       "type": "token",
       "source": "coingecko",
       "change_24h_pct": null,
@@ -72,7 +72,7 @@
       "change_7d_pct": 0.05873934681845853
     },
     "WETH": {
-      "price_usd": 1868.7930945835703,
+      "price_usd": 1870.1329382338063,
       "type": "token",
       "source": "coingecko",
       "change_24h_pct": null,
@@ -93,14 +93,14 @@
       "change_7d_pct": 2.637459312043637
     },
     "WBNB": {
-      "price_usd": 582.3050222366735,
+      "price_usd": 582.6568906582515,
       "type": "token",
       "source": "coingecko",
       "change_24h_pct": null,
       "change_7d_pct": null
     },
     "OSMO": {
-      "price_usd": 0.027415470396359633,
+      "price_usd": 0.027318496424648498,
       "type": "token",
       "source": "coingecko",
       "change_24h_pct": null,
@@ -114,7 +114,7 @@
       "change_7d_pct": null
     },
     "STATOM": {
-      "price_usd": 2.4156565669675123,
+      "price_usd": 2.4176559481976403,
       "type": "token",
       "source": "coingecko",
       "change_24h_pct": null,
@@ -163,14 +163,14 @@
       "change_7d_pct": null
     },
     "ampLUNA": {
-      "price_usd": 0.0929880295716824,
+      "price_usd": 0.09299074574366308,
       "type": "token",
       "source": "calculated-eris",
       "change_24h_pct": null,
       "change_7d_pct": null
     },
     "arbLUNA": {
-      "price_usd": 0.12379179805780038,
+      "price_usd": 0.12379180705417885,
       "type": "token",
       "source": "calculated-eris",
       "change_24h_pct": null,
@@ -200,13 +200,13 @@
   },
   "ratios": {
     "ampLUNA": {
-      "ratio": 2.2476344124660277,
+      "ratio": 2.2477000656650694,
       "hub": "terra10788fkzah89xrdm27zkj5yvhj9x3494lxawzm5qq3vvxcqz2yzaqyd3enk",
       "base_token": "LUNA",
       "source": "eris-hub-chain"
     },
     "arbLUNA": {
-      "ratio": 2.9921991742095075,
+      "ratio": 2.9921993916629788,
       "hub": "terra1r9gls56glvuc4jedsvc3uwh6vj95mqm9efc7hnweqxa2nlme5cyqxygy5m",
       "base_token": "LUNA",
       "source": "eris-hub-chain"
